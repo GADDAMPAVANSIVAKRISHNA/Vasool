@@ -1,0 +1,200 @@
+[
+  {
+    "buyer": "Sethi Metals",
+    "open_invoices": [
+      "INV-1090",
+      "INV-1092",
+      "INV-1093"
+    ],
+    "total_overdue": 280000,
+    "days_overdue": 724,
+    "predicted_date": "2026-10-05",
+    "priority_score": 101360000.0,
+    "reason": "Rs 280,000 overdue for 724 days across 3 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Namaste Sethi Metals team,\n\nAapke neeche diye gaye invoices abhi tak pending hain:\n- INV-1090: Rs 40,000\n- INV-1092: Rs 117,000\n- INV-1093: Rs 123,000\n\nPichhle reminders ke baad bhi payment receive nahi hua. Kripya aaj se 2 din ke andar payment clear kar dein ya expected payment date humein batayein, varna hume senior collector ko involve karna padega.\n\nAapke sahyog ke liye dhanyavaad.",
+    "profile_summary": "### Sethi Metals Payment Behavior and Analysis\n\nBased on the available data from 2026-09-28, **Sethi Metals** demonstrates a pattern of payment delays, unresponsiveness, and vague commitments.\n\n#### Payment Behavior and Reliability\nSethi Metals frequently fails to meet payment deadlines, leading to ",
+    "evidence": "Sethi Metals has an outstanding payment of Rs 40,000 for invoice INV-1090. | When: 2026-09-28 | Involving: Sethi Metals\nSethi Metals has an outstanding payment of Rs 123,000 for invoice INV-1093. | When: 2026-09-28 | Involving: Sethi Metals\nSethi Metals has an outstanding payment of Rs 117,000 for invoice INV-1092. | When: 2026-09-28 | Involving: Sethi Metals\nSethi Metals paid Rs 171,000 for invoice INV-1091, which was severely late. | When: 2026-09-28 | Involving: Sethi Metals | Payment receive",
+    "rank": 1
+  },
+  {
+    "buyer": "Verma Motors",
+    "open_invoices": [
+      "INV-1044",
+      "INV-1046",
+      "INV-1047",
+      "INV-1048"
+    ],
+    "total_overdue": 422000,
+    "days_overdue": 718,
+    "predicted_date": "2026-10-01",
+    "priority_score": 100998666.67,
+    "reason": "Rs 422,000 overdue for 718 days across 4 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Namaste Verma Motors Team,\n\nAapke account me abhi bhi teen invoices pending hain:\n- INV-1046 – Rs 107,000\n- INV-1047 – Rs 43,000\n- INV-1048 – Rs 160,000\n\nTotal amount: Rs 310,000. Yeh invoices ab tak settle nahi hue hain aur aapko pehle hi final reminder bheja gaya tha. Kripya aaj se 5 business days ke andar payment complete kar dein, warna humein site visit schedule karna padega.\n\nPayment details (NEFT): [Your Bank Details]. Agar koi issue ho ya clarification chahiye ho, turant humein batayein.\n\nDhanyavaad,\nVasool Collections",
+    "profile_summary": "### Analysis of Verma Motors' Payment Behavior\n\nBased on the available records for Verma Motors as of September 28, 2026, the company exhibits a pattern of inconsistent communication and significant payment delays.\n\n#### Payment Behavior and Reliability\nVerma Motors is generally unreliable regarding",
+    "evidence": "Verma Motors sent a reminder for invoice INV-1047 for Rs 43,000. | When: 2026-09-28 | Involving: Verma Motors | Requesting payment status for an outstanding invoice.\nVerma Motors has an outstanding payment of Rs 107,000 for invoice INV-1046. | When: 2026-09-28 | Involving: Verma Motors | Final payment attempt before escalation.\nVerma Motors has an outstanding payment of Rs 102,000 for invoice INV-1045. | When: 2026-09-28 | Involving: Verma Motors\nVerma Motors has an outstanding payment of Rs 43,",
+    "rank": 2
+  },
+  {
+    "buyer": "Bose Furniture",
+    "open_invoices": [
+      "INV-1065",
+      "INV-1067"
+    ],
+    "total_overdue": 240000,
+    "days_overdue": 684,
+    "predicted_date": "2026-10-05",
+    "priority_score": 82080000.0,
+    "reason": "Rs 240,000 overdue for 684 days across 2 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Dear Bose Furniture Team,\n\nHope you are well. This is a reminder that invoice INV-1065 for Rs 45,000, sent on 28 Sep 2026, is currently overdue. As per your payment cycle, we understand funds are processed after the 10th of each month. Kindly arrange payment at the earliest possible date, preferably before 15 Oct 2026, to avoid any escalation.\n\nThank you for your prompt attention.\n\nBest regards,\n[Your Name]\nCollections Team",
+    "profile_summary": "## Bose Furniture Payment Behavior Analysis\n\nBased on the retrieved records, Bose Furniture’s payment behavior is characterized by a structured and predictable cycle, tempered by responsiveness to formal reminders.\n\n### Payment Behavior and Cycle\n*   **Payment Cycle:** Bose Furniture consistently op",
+    "evidence": "Bose Furniture has a payment cycle that begins after the 10th of each month. | Involving: Bose Furniture | Explaining the delay in payment.\nThe user promised to make a payment to Bose Furniture on March 14, 2026.\nBose Furniture will process the order after the 10th of October 2026. | When: after 2026-10-10 | Involving: Bose Furniture | The collection arrives after the 10th.\nBose Furniture issued invoice INV-1065 for Rs 45,000, which is currently overdue. | When: 2026-09-28 | Involving: Bose Furn",
+    "rank": 3
+  },
+  {
+    "buyer": "Iyer Exports",
+    "open_invoices": [
+      "INV-1023",
+      "INV-1026"
+    ],
+    "total_overdue": 190000,
+    "days_overdue": 694,
+    "predicted_date": "2026-10-05",
+    "priority_score": 65930000.0,
+    "reason": "Rs 190,000 overdue for 694 days across 2 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Namaste Sir/Madam,\n\nI hope you are well. This is a reminder that the following invoices are now significantly overdue:\n• INV‑1023 – Rs 107,000\n• INV‑1026 – Rs 83,000\n\nWe have already sent multiple reminders and the account has been flagged for escalation. Kindly arrange the NEFT payment by **31 Sep 2026** to avoid further action. Please share the payment reference once the transfer is completed.\n\nThank you for your prompt attention.\n\nBest regards,\nVasool",
+    "profile_summary": "## Iyer Exports's Payment Behavior and Performance\n\nBased on the retrieved records from September 28, 2026, **Iyer Exports** demonstrates a pattern of significant payment delays and poor responsiveness, often requiring repeated follow-ups and escalation before payments are settled.\n\n### Payment Reli",
+    "evidence": "Iyer Exports has an outstanding payment of Rs 107,000 for invoice INV-1023. | When: 2026-09-28 | Involving: Iyer Exports\nIyer Exports paid Rs 61,000 for invoice INV-1024, which was severely late. | When: 2026-09-28 | Involving: Iyer Exports | Payment received for invoice INV-1024\nIyer Exports paid Rs 111,000 for invoice INV-1025, which was severely late. | When: 2026-09-28 | Involving: Iyer Exports | Payment received for invoice INV-1025\nIyer Exports has an outstanding payment of Rs 111,000 for ",
+    "rank": 4
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "open_invoices": [
+      "INV-1073",
+      "INV-1075",
+      "INV-1077",
+      "INV-1078"
+    ],
+    "total_overdue": 266000,
+    "days_overdue": 715,
+    "predicted_date": "2026-10-01",
+    "priority_score": 63396666.67,
+    "reason": "Rs 266,000 overdue for 715 days across 4 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Namaste Kulkarni Tools,\n\nAapke paas abhi bhi 4 pending invoices hain:\n- INV-1073: Rs 77,000\n- INV-1075: Rs 31,000\n- INV-1077: Rs 133,000\n- INV-1078: Rs 25,000\n\nFinal reminder already bheja gaya tha aur ab escalation process shuru ho raha hai. Kripya in payments ko aaj ke din ya iske baad turant clear kar dein, ya humein payment schedule batayein.\n\nAapki sahayata ke liye hum hamesha uplabdh hain. Dhanyavaad.",
+    "profile_summary": "### Kulkarni Tools Payment Behavior and Tactics\n\nBased on the available records as of September 28, 2026, **Kulkarni Tools** exhibits a pattern of significant payment delays and inconsistency in their communication. Their financial conduct is characterized by the following:\n\n#### Payment Behavior an",
+    "evidence": "Kulkarni Tools has an outstanding payment of Rs 47,000 for invoice INV-1074. | When: 2026-09-28 | Involving: Kulkarni Tools\nKulkarni Tools has an outstanding payment of Rs 77,000 for invoice INV-1073. | When: 2026-09-28 | Involving: Kulkarni Tools\nKulkarni Tools has an outstanding payment of Rs 198,000 for invoice INV-1076. | When: 2026-09-28 | Involving: Kulkarni Tools\nKulkarni Tools has an outstanding payment of Rs 133,000 for invoice INV-1077. | When: 2026-09-28 | Involving: Kulkarni Tools\nKu",
+    "rank": 5
+  },
+  {
+    "buyer": "Joshi Foods",
+    "open_invoices": [
+      "INV-1053"
+    ],
+    "total_overdue": 136000,
+    "days_overdue": 576,
+    "predicted_date": "2026-10-05",
+    "priority_score": 39168000.0,
+    "reason": "Rs 136,000 overdue for 576 days across 1 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Namaste Joshi Foods team,\n\nHamare records ke mutabik invoice INV-1053 (Rs 136,000) ab tak pending hai. Aapne payment 24 March 2025 tak karne ka promise kiya tha, lekin ab tak receive nahi hua.\n\nKripya is payment ko aaj se 3 din ke andar settle kar dein, warna hume aage ki action leni padegi. Agar koi issue ho to turant batayein.\n\nShukriya.",
+    "profile_summary": "## Joshi Foods Payment Behavior Analysis\n\nBased on the available records, Joshi Foods consistently demonstrates a pattern of delaying payments, frequently missing agreed-upon deadlines and requiring multiple follow-ups.\n\n### Payment Reliability\nJoshi Foods rarely adheres to their original payment pr",
+    "evidence": "Joshi Foods has an outstanding payment of Rs 65,000 for invoice INV-1049. | When: 2024-10-26 | Involving: Joshi Foods | Payment was promised by the specified date.\nJoshi Foods promised to complete the payment by November 23, 2024. | When: 2024-11-23 | Involving: Joshi Foods\nJoshi Foods has an outstanding payment of Rs 136,000 for invoice INV-1053. | Involving: Joshi Foods\nJoshi Foods promised to make a payment. | When: 2024-11-23 | Involving: Joshi Foods\nJoshi Foods promised to make a payment by",
+    "rank": 6
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "open_invoices": [
+      "INV-1030"
+    ],
+    "total_overdue": 190000,
+    "days_overdue": 571,
+    "predicted_date": "2026-10-01",
+    "priority_score": 36163333.33,
+    "reason": "Rs 190,000 overdue for 571 days across 1 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Namaste Khan Fabrics team,\n\nUmeed hai aap sab theek hain. Hamare records ke mutabik invoice INV-1030 Rs 190,000 ka payment abhi tak pending hai aur due date 28‑Sep‑2026 thi. Kripya is payment ko aaj ya kal tak settle kar dein, taki aage koi inconvenience na ho. Agar koi issue hai to turant humein inform karein, hum milke solution nikal lenge.\n\nDhanyavaad,\n[Your Name]\nVasool Collections",
+    "profile_summary": "### Payment Behavior and Reliability of Khan Fabrics\n\nBased on the retrieved records, **Khan Fabrics** demonstrates a consistent pattern of delaying payments and frequently failing to meet initial deadlines. Their behavior is characterized by a mix of vague assurances and reactive payment patterns r",
+    "evidence": "The assistant is actively tracking the payment deadline for Khan Fabrics.\nKhan Fabrics promised to make the payment by September 29, 2026. | When: 2026-09-29 | Involving: Khan Fabrics\nKhan Fabrics promised payment by November 30, 2024. | When: 2024-11-30 | Involving: Khan Fabrics\nKhan Fabrics committed to making a payment. | When: 2024-10-25 | Involving: Khan Fabrics | Payment deadline\nKhan Fabrics promised to pay invoice INV-1028 for Rs 131,000 by November 29, 2024. | When: 2024-11-29 | Involvi",
+    "rank": 7
+  },
+  {
+    "buyer": "Desai Plastics",
+    "open_invoices": [
+      "INV-1040"
+    ],
+    "total_overdue": 91000,
+    "days_overdue": 685,
+    "predicted_date": "2026-10-05",
+    "priority_score": 31167500.0,
+    "reason": "Rs 91,000 overdue for 685 days across 1 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "polite",
+    "message": "Dear Desai Plastics Team,\n\nHope you are well. This is a gentle reminder that invoice INV-1040 for Rs 91,000 is still outstanding. As discussed, we understand your payment cycle runs after the 10th of each month, and today is past that date. Could you please confirm the expected NEFT transfer date at the earliest convenience?\n\nThank you for your attention to this matter.\n\nBest regards,\nVasool",
+    "profile_summary": "## Desai Plastics Payment Behavior Analysis\n\nBased on the retrieved records, Desai Plastics follows a predictable and consistent payment behavior tied to their internal cash flow cycle.\n\n### Payment Behavior and Tactics\n*   **Cycle-Based Constraints:** Desai Plastics consistently states that they pr",
+    "evidence": "Desai Plastics will process the payment after the 10th of the month because funds are received only after that date. | Involving: Desai Plastics | Funds are received after the 10th of the month.\nDesai Plastics promised a payment. | Involving: Desai Plastics\nDesai Plastics paid Rs 180,000 for invoice INV-1043. | When: 2026-09-28 | Involving: Desai Plastics | Payment for post-10th cycle invoice.\nDesai Plastics paid Rs 114,000 for invoice INV-1042. | When: 2026-09-28 | Involving: Desai Plastics | P",
+    "rank": 8
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "open_invoices": [
+      "INV-1014",
+      "INV-1017"
+    ],
+    "total_overdue": 127000,
+    "days_overdue": 686,
+    "predicted_date": "2026-10-01",
+    "priority_score": 29040666.67,
+    "reason": "Rs 127,000 overdue for 686 days across 2 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "firm",
+    "message": "Dear Reddy Electronics Team,\n\nHope you are well. This is a reminder that invoice INV-1017 for Rs 74,000, dated 28‑Sep‑2026, is now overdue. As per your usual payment cycle, payments are processed after the 10th of each month. Kindly arrange the payment at the earliest, preferably by 10‑Oct‑2026, to avoid any escalation.\n\nThank you for your prompt attention.\n\nBest regards,\nVasool",
+    "profile_summary": "## Reddy Electronics Payment Behavior\n\nReddy Electronics consistently demonstrates a specific payment pattern linked to their internal cash flow cycle. They receive their funds after the 10th of each month, which they cite as the primary reason for their payment delays. Consequently, their payments ",
+    "evidence": "Reddy Electronics promised to make a payment. | Involving: Reddy Electronics\nReddy Electronics promised to make a payment. | Involving: Reddy Electronics\nReddy Electronics has a payment cycle that begins after the 10th of each month, as they receive their funds only after that date.\nReddy Electronics promised to make a payment. | Involving: Reddy Electronics\nReddy Electronics promised to complete the payment. | When: 2025-01-12 | Involving: Reddy Electronics\nReddy Electronics has a payment cycle",
+    "rank": 9
+  },
+  {
+    "buyer": "Chopra Garments",
+    "open_invoices": [
+      "INV-1058"
+    ],
+    "total_overdue": 100000,
+    "days_overdue": 573,
+    "predicted_date": "2026-10-05",
+    "priority_score": 28650000.0,
+    "reason": "Rs 100,000 overdue for 573 days across 1 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "polite",
+    "message": "Namaste Chopra Garments Team,\n\nUmeed hai aap sab theek hain. Hamare records ke mutabik invoice INV-1058 Rs 100,000 abhi tak pending hai. Pehle ki tarah aapki sahayata ke liye dhanyavaad, aur kripya is payment ko aaj ya kal tak settle kar den. Agar koi clarification chahiye ya payment schedule discuss karna ho, toh mujhe call kar sakte hain. Aapke prompt response ki prateeksha rahegi.\n\nShukriya,\nVasool",
+    "profile_summary": "## Chopra Garments Payment Behavior Analysis\n\nBased on the available records from September 28, 2026, and historical context, **Chopra Garments** exhibits a payment pattern characterized by forgetfulness regarding outstanding dues, necessitating active and persistent follow-up from the assistant to ",
+    "evidence": "Chopra Garments promised to complete the order by November 3, 2024. | When: 2024-11-03 | Involving: Chopra Garments\nChopra Garments promised to complete the task before November 26, 2024. | When: 2024-11-26 | Involving: Chopra Garments\nChopra Garments has an outstanding payment of Rs 133,000 for invoice INV-1056. | When: 2026-09-28 | Involving: Chopra Garments | Payment is overdue and requires urgent attention.\nChopra Garments paid Rs 46,000 for invoice INV-1057. | When: 2026-09-28 | Involving: ",
+    "rank": 10
+  },
+  {
+    "buyer": "Gupta Steels",
+    "open_invoices": [
+      "INV-1008"
+    ],
+    "total_overdue": 48000,
+    "days_overdue": 575,
+    "predicted_date": "2026-10-05",
+    "priority_score": 13800000.0,
+    "reason": "Rs 48,000 overdue for 575 days across 1 invoice(s)",
+    "channel": "WhatsApp",
+    "tone": "polite",
+    "message": "Namaste Gupta Steels team,\n\nAapke account mein abhi bhi invoice INV-1008 ka Rs 48,000 pending hai, jo originally 27 March 2025 ko due tha. Aapne bataya tha ki account issue 30 September tak resolve ho jayega – kya aap please confirm kar sakte hain ki payment abhi process ho raha hai aur expected date kya hai?\n\nAapki prompt response ka hum shukriya ada karte hain.\n\nDhanyavaad,\nVasool",
+    "profile_summary": "Based on the retrieved records, Gupta Steels consistently demonstrates a pattern of delaying payments, often citing \"account issues\" or requesting additional time to resolve outstanding balances. Their payment behavior is characterized by significant delays, requiring persistent follow-up efforts to",
+    "evidence": "Gupta Steels promised to make a payment. | When: 2024-11-28 | Involving: Gupta Steels\nGupta Steels promised to pay invoice INV-1005 for Rs 113,000 by November 28, 2024. | When: 2024-11-28 | Involving: Gupta Steels\nGupta Steels promised to pay invoice INV-1004 for Rs 161,000 by October 28, 2024. | When: 2024-10-28 | Involving: Gupta Steels\nGupta Steels has a pending payment of Rs 184,000 for invoice INV-1007. | Involving: Gupta Steels\nGupta Steels sent a reminder for invoice INV-1007 for Rs 184,0",
+    "rank": 11
+  }
+]

@@ -1,0 +1,2714 @@
+{
+  "bank_id": "vasool_recovery_agent",
+  "name": "VASOOL Debt Recovery Bank (Local Cache)",
+  "mission": "Track borrower repayment commitments, excuses, hardship claims, and negotiation history.",
+  "total_units": 121,
+  "memories": [
+    {
+      "borrower_id": "BORR-1001",
+      "borrower_name": "Rajesh Sharma",
+      "content": "Borrower Profile: Rajesh Sharma (ID: BORR-1001). Loan: Personal Loan (LN-7000). Principal: INR 486,123, Current Outstanding: INR 40,904, Monthly EMI: INR 6,679. Delinquency: 68 Days Past Due (Risk Bucket: 61-90 DPD (High)). Employment: Small Business Owner, Monthly Income: approx INR 50,790. Known Hardship: Overleveraged Multiple EMIs. Current Disposition: Restructure Requested. Settlement Eligible: True (Max Discount Allowed: 15%). Preferred Language: English. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7000",
+      "tags": [
+        "profile",
+        "BORR-1001",
+        "61-90 DPD (High)",
+        "personal_loan"
+      ],
+      "entities": [
+        {
+          "name": "Rajesh Sharma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1002",
+      "borrower_name": "Priya Sundaram",
+      "content": "Borrower Profile: Priya Sundaram (ID: BORR-1002). Loan: MSME Business Loan (LN-7017). Principal: INR 760,663, Current Outstanding: INR 45,558, Monthly EMI: INR 34,782. Delinquency: 17 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Small Business Owner, Monthly Income: approx INR 39,390. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Cooperative. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Telugu. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7017",
+      "tags": [
+        "profile",
+        "BORR-1002",
+        "0-30 DPD (Early)",
+        "msme_business_loan"
+      ],
+      "entities": [
+        {
+          "name": "Priya Sundaram",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1003",
+      "borrower_name": "Amit Patel",
+      "content": "Borrower Profile: Amit Patel (ID: BORR-1003). Loan: Credit Card Outstanding (LN-7034). Principal: INR 51,319, Current Outstanding: INR 10,989, Monthly EMI: INR 9,065. Delinquency: 45 Days Past Due (Risk Bucket: 31-60 DPD (Mid)). Employment: Self-Employed / Freelancer, Monthly Income: approx INR 82,921. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Dispute Raised. Settlement Eligible: False (Max Discount Allowed: 5%). Preferred Language: English. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7034",
+      "tags": [
+        "profile",
+        "BORR-1003",
+        "31-60 DPD (Mid)",
+        "credit_card_outstanding"
+      ],
+      "entities": [
+        {
+          "name": "Amit Patel",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1004",
+      "borrower_name": "Sunita Rao",
+      "content": "Borrower Profile: Sunita Rao (ID: BORR-1004). Loan: Two-Wheeler Loan (LN-7051). Principal: INR 73,934, Current Outstanding: INR 5,559, Monthly EMI: INR 4,142. Delinquency: 23 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Small Business Owner, Monthly Income: approx INR 131,712. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Cooperative. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Hindi. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7051",
+      "tags": [
+        "profile",
+        "BORR-1004",
+        "0-30 DPD (Early)",
+        "two-wheeler_loan"
+      ],
+      "entities": [
+        {
+          "name": "Sunita Rao",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1005",
+      "borrower_name": "Vikram Malhotra",
+      "content": "Borrower Profile: Vikram Malhotra (ID: BORR-1005). Loan: Consumer Durable Loan (LN-7068). Principal: INR 50,016, Current Outstanding: INR 7,062, Monthly EMI: INR 4,770. Delinquency: 55 Days Past Due (Risk Bucket: 31-60 DPD (Mid)). Employment: Salaried (MNC), Monthly Income: approx INR 138,666. Known Hardship: Overleveraged Multiple EMIs. Current Disposition: Broken PTP. Settlement Eligible: False (Max Discount Allowed: 5%). Preferred Language: Tamil. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7068",
+      "tags": [
+        "profile",
+        "BORR-1005",
+        "31-60 DPD (Mid)",
+        "consumer_durable_loan"
+      ],
+      "entities": [
+        {
+          "name": "Vikram Malhotra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1006",
+      "borrower_name": "Deepak Gupta",
+      "content": "Borrower Profile: Deepak Gupta (ID: BORR-1006). Loan: Personal Loan (LN-7085). Principal: INR 362,451, Current Outstanding: INR 25,940, Monthly EMI: INR 17,483. Delinquency: 28 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Self-Employed / Freelancer, Monthly Income: approx INR 55,894. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Cooperative. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Telugu. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7085",
+      "tags": [
+        "profile",
+        "BORR-1006",
+        "0-30 DPD (Early)",
+        "personal_loan"
+      ],
+      "entities": [
+        {
+          "name": "Deepak Gupta",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1007",
+      "borrower_name": "Kavita Nair",
+      "content": "Borrower Profile: Kavita Nair (ID: BORR-1007). Loan: MSME Business Loan (LN-7102). Principal: INR 1,167,460, Current Outstanding: INR 53,300, Monthly EMI: INR 30,924. Delinquency: 23 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (Private), Monthly Income: approx INR 46,143. Known Hardship: Overleveraged Multiple EMIs. Current Disposition: Promise to Pay (PTP). Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Hindi. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7102",
+      "tags": [
+        "profile",
+        "BORR-1007",
+        "0-30 DPD (Early)",
+        "msme_business_loan"
+      ],
+      "entities": [
+        {
+          "name": "Kavita Nair",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1008",
+      "borrower_name": "Mohammed Farooq",
+      "content": "Borrower Profile: Mohammed Farooq (ID: BORR-1008). Loan: Credit Card Outstanding (LN-7119). Principal: INR 45,860, Current Outstanding: INR 16,988, Monthly EMI: INR 7,061. Delinquency: 75 Days Past Due (Risk Bucket: 61-90 DPD (High)). Employment: Salaried (MNC), Monthly Income: approx INR 44,784. Known Hardship: Job Loss / Layoff. Current Disposition: Unresponsive. Settlement Eligible: True (Max Discount Allowed: 15%). Preferred Language: Telugu. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7119",
+      "tags": [
+        "profile",
+        "BORR-1008",
+        "61-90 DPD (High)",
+        "credit_card_outstanding"
+      ],
+      "entities": [
+        {
+          "name": "Mohammed Farooq",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1009",
+      "borrower_name": "Ananya Sen",
+      "content": "Borrower Profile: Ananya Sen (ID: BORR-1009). Loan: Two-Wheeler Loan (LN-7136). Principal: INR 83,219, Current Outstanding: INR 4,221, Monthly EMI: INR 3,667. Delinquency: 8 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (MNC), Monthly Income: approx INR 150,427. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Cooperative. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: English. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7136",
+      "tags": [
+        "profile",
+        "BORR-1009",
+        "0-30 DPD (Early)",
+        "two-wheeler_loan"
+      ],
+      "entities": [
+        {
+          "name": "Ananya Sen",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1010",
+      "borrower_name": "Rohan Joshi",
+      "content": "Borrower Profile: Rohan Joshi (ID: BORR-1010). Loan: Consumer Durable Loan (LN-7153). Principal: INR 43,315, Current Outstanding: INR 18,042, Monthly EMI: INR 4,871. Delinquency: 95 Days Past Due (Risk Bucket: 90+ DPD (Critical / NPA)). Employment: Salaried (Private), Monthly Income: approx INR 31,868. Known Hardship: Medical Emergency in Family. Current Disposition: Broken PTP. Settlement Eligible: True (Max Discount Allowed: 25%). Preferred Language: Hindi. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7153",
+      "tags": [
+        "profile",
+        "BORR-1010",
+        "90+ DPD (Critical / NPA)",
+        "consumer_durable_loan"
+      ],
+      "entities": [
+        {
+          "name": "Rohan Joshi",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1011",
+      "borrower_name": "Sneha Kulkarni",
+      "content": "Borrower Profile: Sneha Kulkarni (ID: BORR-1011). Loan: Personal Loan (LN-7170). Principal: INR 182,540, Current Outstanding: INR 8,973, Monthly EMI: INR 5,931. Delinquency: 20 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (MNC), Monthly Income: approx INR 49,000. Known Hardship: Client Payment Delayed / Cash Crunch. Current Disposition: Unresponsive. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Telugu. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7170",
+      "tags": [
+        "profile",
+        "BORR-1011",
+        "0-30 DPD (Early)",
+        "personal_loan"
+      ],
+      "entities": [
+        {
+          "name": "Sneha Kulkarni",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1012",
+      "borrower_name": "Manish Tiwari",
+      "content": "Borrower Profile: Manish Tiwari (ID: BORR-1012). Loan: MSME Business Loan (LN-7187). Principal: INR 678,517, Current Outstanding: INR 142,711, Monthly EMI: INR 27,969. Delinquency: 104 Days Past Due (Risk Bucket: 90+ DPD (Critical / NPA)). Employment: Self-Employed / Freelancer, Monthly Income: approx INR 106,642. Known Hardship: Disputed Hidden Charges. Current Disposition: Legal Escalation Warning. Settlement Eligible: True (Max Discount Allowed: 25%). Preferred Language: English. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7187",
+      "tags": [
+        "profile",
+        "BORR-1012",
+        "90+ DPD (Critical / NPA)",
+        "msme_business_loan"
+      ],
+      "entities": [
+        {
+          "name": "Manish Tiwari",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1013",
+      "borrower_name": "Pooja Hegde",
+      "content": "Borrower Profile: Pooja Hegde (ID: BORR-1013). Loan: Credit Card Outstanding (LN-7204). Principal: INR 50,374, Current Outstanding: INR 7,797, Monthly EMI: INR 7,462. Delinquency: 8 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Self-Employed / Freelancer, Monthly Income: approx INR 83,215. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Unresponsive. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Hindi. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7204",
+      "tags": [
+        "profile",
+        "BORR-1013",
+        "0-30 DPD (Early)",
+        "credit_card_outstanding"
+      ],
+      "entities": [
+        {
+          "name": "Pooja Hegde",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1014",
+      "borrower_name": "Harish Chandra",
+      "content": "Borrower Profile: Harish Chandra (ID: BORR-1014). Loan: Two-Wheeler Loan (LN-7221). Principal: INR 96,759, Current Outstanding: INR 16,600, Monthly EMI: INR 2,819. Delinquency: 101 Days Past Due (Risk Bucket: 90+ DPD (Critical / NPA)). Employment: Salaried (Private), Monthly Income: approx INR 47,724. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Unresponsive. Settlement Eligible: True (Max Discount Allowed: 25%). Preferred Language: Telugu. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7221",
+      "tags": [
+        "profile",
+        "BORR-1014",
+        "90+ DPD (Critical / NPA)",
+        "two-wheeler_loan"
+      ],
+      "entities": [
+        {
+          "name": "Harish Chandra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1015",
+      "borrower_name": "Divya Menon",
+      "content": "Borrower Profile: Divya Menon (ID: BORR-1015). Loan: Consumer Durable Loan (LN-7238). Principal: INR 83,903, Current Outstanding: INR 4,264, Monthly EMI: INR 3,216. Delinquency: 15 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (MNC), Monthly Income: approx INR 69,732. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Cooperative. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Tamil. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7238",
+      "tags": [
+        "profile",
+        "BORR-1015",
+        "0-30 DPD (Early)",
+        "consumer_durable_loan"
+      ],
+      "entities": [
+        {
+          "name": "Divya Menon",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1016",
+      "borrower_name": "Suresh Reddy",
+      "content": "Borrower Profile: Suresh Reddy (ID: BORR-1016). Loan: Personal Loan (LN-7255). Principal: INR 456,263, Current Outstanding: INR 82,418, Monthly EMI: INR 13,785. Delinquency: 108 Days Past Due (Risk Bucket: 90+ DPD (Critical / NPA)). Employment: Self-Employed / Freelancer, Monthly Income: approx INR 35,235. Known Hardship: Medical Emergency in Family. Current Disposition: Unresponsive. Settlement Eligible: True (Max Discount Allowed: 25%). Preferred Language: Hindi. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7255",
+      "tags": [
+        "profile",
+        "BORR-1016",
+        "90+ DPD (Critical / NPA)",
+        "personal_loan"
+      ],
+      "entities": [
+        {
+          "name": "Suresh Reddy",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1017",
+      "borrower_name": "Neha Agarwal",
+      "content": "Borrower Profile: Neha Agarwal (ID: BORR-1017). Loan: MSME Business Loan (LN-7272). Principal: INR 1,154,717, Current Outstanding: INR 224,454, Monthly EMI: INR 24,840. Delinquency: 130 Days Past Due (Risk Bucket: 90+ DPD (Critical / NPA)). Employment: Small Business Owner, Monthly Income: approx INR 109,077. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Broken PTP. Settlement Eligible: True (Max Discount Allowed: 25%). Preferred Language: Hinglish. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7272",
+      "tags": [
+        "profile",
+        "BORR-1017",
+        "90+ DPD (Critical / NPA)",
+        "msme_business_loan"
+      ],
+      "entities": [
+        {
+          "name": "Neha Agarwal",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1018",
+      "borrower_name": "Sanjay Mehta",
+      "content": "Borrower Profile: Sanjay Mehta (ID: BORR-1018). Loan: Credit Card Outstanding (LN-7289). Principal: INR 52,241, Current Outstanding: INR 5,259, Monthly EMI: INR 4,389. Delinquency: 20 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (Private), Monthly Income: approx INR 115,867. Known Hardship: Medical Emergency in Family. Current Disposition: Unresponsive. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Hinglish. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7289",
+      "tags": [
+        "profile",
+        "BORR-1018",
+        "0-30 DPD (Early)",
+        "credit_card_outstanding"
+      ],
+      "entities": [
+        {
+          "name": "Sanjay Mehta",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1019",
+      "borrower_name": "Arvind Swaminathan",
+      "content": "Borrower Profile: Arvind Swaminathan (ID: BORR-1019). Loan: Two-Wheeler Loan (LN-7306). Principal: INR 109,215, Current Outstanding: INR 7,562, Monthly EMI: INR 4,377. Delinquency: 35 Days Past Due (Risk Bucket: 31-60 DPD (Mid)). Employment: Salaried (Private), Monthly Income: approx INR 55,941. Known Hardship: Disputed Hidden Charges. Current Disposition: Broken PTP. Settlement Eligible: False (Max Discount Allowed: 5%). Preferred Language: Hindi. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7306",
+      "tags": [
+        "profile",
+        "BORR-1019",
+        "31-60 DPD (Mid)",
+        "two-wheeler_loan"
+      ],
+      "entities": [
+        {
+          "name": "Arvind Swaminathan",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1020",
+      "borrower_name": "Meera Iyer",
+      "content": "Borrower Profile: Meera Iyer (ID: BORR-1020). Loan: Consumer Durable Loan (LN-7323). Principal: INR 81,074, Current Outstanding: INR 12,235, Monthly EMI: INR 3,179. Delinquency: 87 Days Past Due (Risk Bucket: 61-90 DPD (High)). Employment: Self-Employed / Freelancer, Monthly Income: approx INR 143,309. Known Hardship: Medical Emergency in Family. Current Disposition: Unresponsive. Settlement Eligible: True (Max Discount Allowed: 15%). Preferred Language: Hindi. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7323",
+      "tags": [
+        "profile",
+        "BORR-1020",
+        "61-90 DPD (High)",
+        "consumer_durable_loan"
+      ],
+      "entities": [
+        {
+          "name": "Meera Iyer",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1021",
+      "borrower_name": "Karan Singhania",
+      "content": "Borrower Profile: Karan Singhania (ID: BORR-1021). Loan: Personal Loan (LN-7340). Principal: INR 319,687, Current Outstanding: INR 18,080, Monthly EMI: INR 13,818. Delinquency: 16 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (Private), Monthly Income: approx INR 85,812. Known Hardship: Disputed Hidden Charges. Current Disposition: Cooperative. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Hinglish. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7340",
+      "tags": [
+        "profile",
+        "BORR-1021",
+        "0-30 DPD (Early)",
+        "personal_loan"
+      ],
+      "entities": [
+        {
+          "name": "Karan Singhania",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1022",
+      "borrower_name": "Radhika Verma",
+      "content": "Borrower Profile: Radhika Verma (ID: BORR-1022). Loan: MSME Business Loan (LN-7357). Principal: INR 452,727, Current Outstanding: INR 71,570, Monthly EMI: INR 23,524. Delinquency: 65 Days Past Due (Risk Bucket: 61-90 DPD (High)). Employment: Small Business Owner, Monthly Income: approx INR 113,813. Known Hardship: Client Payment Delayed / Cash Crunch. Current Disposition: Restructure Requested. Settlement Eligible: True (Max Discount Allowed: 15%). Preferred Language: Hinglish. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7357",
+      "tags": [
+        "profile",
+        "BORR-1022",
+        "61-90 DPD (High)",
+        "msme_business_loan"
+      ],
+      "entities": [
+        {
+          "name": "Radhika Verma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1023",
+      "borrower_name": "Naveen Kumar",
+      "content": "Borrower Profile: Naveen Kumar (ID: BORR-1023). Loan: Credit Card Outstanding (LN-7374). Principal: INR 51,992, Current Outstanding: INR 24,703, Monthly EMI: INR 4,876. Delinquency: 120 Days Past Due (Risk Bucket: 90+ DPD (Critical / NPA)). Employment: Salaried (MNC), Monthly Income: approx INR 70,930. Known Hardship: Job Loss / Layoff. Current Disposition: Dispute Raised. Settlement Eligible: True (Max Discount Allowed: 25%). Preferred Language: Telugu. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7374",
+      "tags": [
+        "profile",
+        "BORR-1023",
+        "90+ DPD (Critical / NPA)",
+        "credit_card_outstanding"
+      ],
+      "entities": [
+        {
+          "name": "Naveen Kumar",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1024",
+      "borrower_name": "Preeti Deshmukh",
+      "content": "Borrower Profile: Preeti Deshmukh (ID: BORR-1024). Loan: Two-Wheeler Loan (LN-7391). Principal: INR 88,411, Current Outstanding: INR 13,491, Monthly EMI: INR 3,541. Delinquency: 87 Days Past Due (Risk Bucket: 61-90 DPD (High)). Employment: Salaried (Private), Monthly Income: approx INR 148,517. Known Hardship: Willful Avoidance / Evasive. Current Disposition: Broken PTP. Settlement Eligible: True (Max Discount Allowed: 15%). Preferred Language: Tamil. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7391",
+      "tags": [
+        "profile",
+        "BORR-1024",
+        "61-90 DPD (High)",
+        "two-wheeler_loan"
+      ],
+      "entities": [
+        {
+          "name": "Preeti Deshmukh",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1025",
+      "borrower_name": "Gaurav Saxena",
+      "content": "Borrower Profile: Gaurav Saxena (ID: BORR-1025). Loan: Consumer Durable Loan (LN-7408). Principal: INR 76,424, Current Outstanding: INR 5,998, Monthly EMI: INR 2,241. Delinquency: 59 Days Past Due (Risk Bucket: 31-60 DPD (Mid)). Employment: Salaried (Private), Monthly Income: approx INR 78,084. Known Hardship: Medical Emergency in Family. Current Disposition: Dispute Raised. Settlement Eligible: False (Max Discount Allowed: 5%). Preferred Language: Tamil. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7408",
+      "tags": [
+        "profile",
+        "BORR-1025",
+        "31-60 DPD (Mid)",
+        "consumer_durable_loan"
+      ],
+      "entities": [
+        {
+          "name": "Gaurav Saxena",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1026",
+      "borrower_name": "Shalini Bose",
+      "content": "Borrower Profile: Shalini Bose (ID: BORR-1026). Loan: Personal Loan (LN-7425). Principal: INR 284,450, Current Outstanding: INR 29,315, Monthly EMI: INR 16,515. Delinquency: 54 Days Past Due (Risk Bucket: 31-60 DPD (Mid)). Employment: Self-Employed / Freelancer, Monthly Income: approx INR 99,019. Known Hardship: Job Loss / Layoff. Current Disposition: Dispute Raised. Settlement Eligible: False (Max Discount Allowed: 5%). Preferred Language: Hindi. Best Time to Contact: Morning (9:00 AM - 12:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7425",
+      "tags": [
+        "profile",
+        "BORR-1026",
+        "31-60 DPD (Mid)",
+        "personal_loan"
+      ],
+      "entities": [
+        {
+          "name": "Shalini Bose",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1027",
+      "borrower_name": "Tarun Bhatia",
+      "content": "Borrower Profile: Tarun Bhatia (ID: BORR-1027). Loan: MSME Business Loan (LN-7442). Principal: INR 706,327, Current Outstanding: INR 41,383, Monthly EMI: INR 37,852. Delinquency: 6 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (MNC), Monthly Income: approx INR 156,680. Known Hardship: Medical Emergency in Family. Current Disposition: Unresponsive. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Telugu. Best Time to Contact: Afternoon (1:00 PM - 4:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7442",
+      "tags": [
+        "profile",
+        "BORR-1027",
+        "0-30 DPD (Early)",
+        "msme_business_loan"
+      ],
+      "entities": [
+        {
+          "name": "Tarun Bhatia",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1028",
+      "borrower_name": "Swati Pandey",
+      "content": "Borrower Profile: Swati Pandey (ID: BORR-1028). Loan: Credit Card Outstanding (LN-7459). Principal: INR 136,318, Current Outstanding: INR 22,999, Monthly EMI: INR 7,978. Delinquency: 62 Days Past Due (Risk Bucket: 61-90 DPD (High)). Employment: Temporarily Unemployed, Monthly Income: approx INR 93,061. Known Hardship: Medical Emergency in Family. Current Disposition: Restructure Requested. Settlement Eligible: True (Max Discount Allowed: 15%). Preferred Language: Tamil. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7459",
+      "tags": [
+        "profile",
+        "BORR-1028",
+        "61-90 DPD (High)",
+        "credit_card_outstanding"
+      ],
+      "entities": [
+        {
+          "name": "Swati Pandey",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1029",
+      "borrower_name": "Ashok Pillai",
+      "content": "Borrower Profile: Ashok Pillai (ID: BORR-1029). Loan: Two-Wheeler Loan (LN-7476). Principal: INR 105,178, Current Outstanding: INR 4,454, Monthly EMI: INR 4,016. Delinquency: 5 Days Past Due (Risk Bucket: 0-30 DPD (Early)). Employment: Salaried (Private), Monthly Income: approx INR 104,351. Known Hardship: Medical Emergency in Family. Current Disposition: Cooperative. Settlement Eligible: False (Max Discount Allowed: 0%). Preferred Language: Hinglish. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7476",
+      "tags": [
+        "profile",
+        "BORR-1029",
+        "0-30 DPD (Early)",
+        "two-wheeler_loan"
+      ],
+      "entities": [
+        {
+          "name": "Ashok Pillai",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1030",
+      "borrower_name": "Leena Fernandes",
+      "content": "Borrower Profile: Leena Fernandes (ID: BORR-1030). Loan: Consumer Durable Loan (LN-7493). Principal: INR 60,159, Current Outstanding: INR 12,432, Monthly EMI: INR 4,637. Delinquency: 63 Days Past Due (Risk Bucket: 61-90 DPD (High)). Employment: Salaried (MNC), Monthly Income: approx INR 103,657. Known Hardship: Disputed Hidden Charges. Current Disposition: Restructure Requested. Settlement Eligible: True (Max Discount Allowed: 15%). Preferred Language: Tamil. Best Time to Contact: Evening (5:00 PM - 7:00 PM).",
+      "type": "borrower_profile",
+      "context": "Master Loan Record - LN-7493",
+      "tags": [
+        "profile",
+        "BORR-1030",
+        "61-90 DPD (High)",
+        "consumer_durable_loan"
+      ],
+      "entities": [
+        {
+          "name": "Leena Fernandes",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1001",
+      "borrower_name": "Rajesh Sharma",
+      "content": "Interaction Log on 2026-07-22 12:24:00 via IVR Call with Rajesh Sharma (ID: BORR-1001). Collector: Pooja V. (Vasool AI). Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b96679 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 6,679 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-07-22 12:24:00",
+      "context": "Call Log - INT-5001 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1001",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Rajesh Sharma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1001",
+      "borrower_name": "Rajesh Sharma",
+      "content": "Interaction Log on 2026-08-06 12:55:00 via IVR Call with Rajesh Sharma (ID: BORR-1001). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b96679 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 6,679 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-08-06 12:55:00",
+      "context": "Call Log - INT-5002 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1001",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Rajesh Sharma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1001",
+      "borrower_name": "Rajesh Sharma",
+      "content": "Interaction Log on 2026-08-25 16:47:00 via WhatsApp Reminder with Rajesh Sharma (ID: BORR-1001). Collector: Pooja V. (Vasool AI). Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b96679 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 6,679 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-08-25 16:47:00",
+      "context": "Call Log - INT-5003 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1001",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Rajesh Sharma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1001",
+      "borrower_name": "Rajesh Sharma",
+      "content": "Interaction Log on 2026-09-11 15:31:00 via WhatsApp Reminder with Rajesh Sharma (ID: BORR-1001). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b96679 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 6,679 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-11 15:31:00",
+      "context": "Call Log - INT-5004 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1001",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Rajesh Sharma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1002",
+      "borrower_name": "Priya Sundaram",
+      "content": "Interaction Log on 2026-09-10 10:45:00 via WhatsApp Reminder with Priya Sundaram (ID: BORR-1002). Collector: Vasool Automated Bot. Borrower Tone: Curt. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-10 10:45:00",
+      "context": "Call Log - INT-5005 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1002",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Priya Sundaram",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1002",
+      "borrower_name": "Priya Sundaram",
+      "content": "Interaction Log on 2026-09-19 10:12:00 via Inbound Callback with Priya Sundaram (ID: BORR-1002). Collector: Vasool Automated Bot. Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-19 10:12:00",
+      "context": "Call Log - INT-5006 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1002",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Priya Sundaram",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1003",
+      "borrower_name": "Amit Patel",
+      "content": "Interaction Log on 2026-08-12 11:44:00 via Inbound Callback with Amit Patel (ID: BORR-1003). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-12 11:44:00",
+      "context": "Call Log - INT-5007 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1003",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Amit Patel",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1003",
+      "borrower_name": "Amit Patel",
+      "content": "Interaction Log on 2026-08-28 13:50:00 via IVR Call with Amit Patel (ID: BORR-1003). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Curt. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-28 13:50:00",
+      "context": "Call Log - INT-5008 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1003",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Amit Patel",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1003",
+      "borrower_name": "Amit Patel",
+      "content": "Interaction Log on 2026-09-12 09:24:00 via Outbound Call with Amit Patel (ID: BORR-1003). Collector: Vasool Automated Bot. Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-12 09:24:00",
+      "context": "Call Log - INT-5009 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1003",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Amit Patel",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1004",
+      "borrower_name": "Sunita Rao",
+      "content": "Interaction Log on 2026-09-05 12:45:00 via IVR Call with Sunita Rao (ID: BORR-1004). Collector: Vasool Automated Bot. Borrower Tone: Curt. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-05 12:45:00",
+      "context": "Call Log - INT-5010 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1004",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Sunita Rao",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1004",
+      "borrower_name": "Sunita Rao",
+      "content": "Interaction Log on 2026-09-14 15:47:00 via SMS Urgent Notice with Sunita Rao (ID: BORR-1004). Collector: Vasool Automated Bot. Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-14 15:47:00",
+      "context": "Call Log - INT-5011 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1004",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Sunita Rao",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1005",
+      "borrower_name": "Vikram Malhotra",
+      "content": "Interaction Log on 2026-08-02 16:43:00 via WhatsApp Reminder with Vikram Malhotra (ID: BORR-1005). Collector: Pooja V. (Vasool AI). Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b94770 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 4,770 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-08-02 16:43:00",
+      "context": "Call Log - INT-5012 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1005",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Vikram Malhotra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1005",
+      "borrower_name": "Vikram Malhotra",
+      "content": "Interaction Log on 2026-08-20 10:53:00 via IVR Call with Vikram Malhotra (ID: BORR-1005). Collector: Vasool Automated Bot. Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b94770 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 4,770 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-08-20 10:53:00",
+      "context": "Call Log - INT-5013 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1005",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Vikram Malhotra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1005",
+      "borrower_name": "Vikram Malhotra",
+      "content": "Interaction Log on 2026-09-07 14:17:00 via WhatsApp Reminder with Vikram Malhotra (ID: BORR-1005). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b94770 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 4,770 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-07 14:17:00",
+      "context": "Call Log - INT-5014 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1005",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Vikram Malhotra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1006",
+      "borrower_name": "Deepak Gupta",
+      "content": "Interaction Log on 2026-08-31 11:33:00 via Inbound Callback with Deepak Gupta (ID: BORR-1006). Collector: Pooja V. (Vasool AI). Borrower Tone: Curt. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-31 11:33:00",
+      "context": "Call Log - INT-5015 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1006",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Deepak Gupta",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1006",
+      "borrower_name": "Deepak Gupta",
+      "content": "Interaction Log on 2026-09-13 16:11:00 via Outbound Call with Deepak Gupta (ID: BORR-1006). Collector: Vasool Automated Bot. Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-13 16:11:00",
+      "context": "Call Log - INT-5016 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1006",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Deepak Gupta",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1007",
+      "borrower_name": "Kavita Nair",
+      "content": "Interaction Log on 2026-09-04 17:20:00 via WhatsApp Reminder with Kavita Nair (ID: BORR-1007). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b930924 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 30,924 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-04 17:20:00",
+      "context": "Call Log - INT-5017 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1007",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Kavita Nair",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1007",
+      "borrower_name": "Kavita Nair",
+      "content": "Interaction Log on 2026-09-16 17:54:00 via Inbound Callback with Kavita Nair (ID: BORR-1007). Collector: Vasool Automated Bot. Borrower Tone: Cooperative. Discussion Summary: Borrower acknowledged delay due to multiple simultaneous EMIs. Confirmed intention to pay \u20b930924 before next billing cycle. Requested digital payment UPI link. PTP Commitment: INR 30,924 promised for 2026-10-01. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-16 17:54:00",
+      "context": "Call Log - INT-5018 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1007",
+        "promise_to_pay_(ptp)",
+        "multiple_emis",
+        "upi_payment_link_requested",
+        "cooperative"
+      ],
+      "entities": [
+        {
+          "name": "Kavita Nair",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1008",
+      "borrower_name": "Mohammed Farooq",
+      "content": "Interaction Log on 2026-07-15 18:24:00 via Outbound Call with Mohammed Farooq (ID: BORR-1008). Collector: Pooja V. (Vasool AI). Borrower Tone: Defensive. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b94236 for 3 months. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-15 18:24:00",
+      "context": "Call Log - INT-5019 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1008",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Mohammed Farooq",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1008",
+      "borrower_name": "Mohammed Farooq",
+      "content": "Interaction Log on 2026-07-31 09:24:00 via Outbound Call with Mohammed Farooq (ID: BORR-1008). Collector: Pooja V. (Vasool AI). Borrower Tone: Anxious. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b94236 for 3 months. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-31 09:24:00",
+      "context": "Call Log - INT-5020 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1008",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Mohammed Farooq",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1008",
+      "borrower_name": "Mohammed Farooq",
+      "content": "Interaction Log on 2026-08-20 17:25:00 via WhatsApp Reminder with Mohammed Farooq (ID: BORR-1008). Collector: Anand M. (Escalation Lead). Borrower Tone: Distressed. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b94236 for 3 months. PTP Commitment: INR 3,530 promised for 2026-10-03. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-20 17:25:00",
+      "context": "Call Log - INT-5021 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1008",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Mohammed Farooq",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1008",
+      "borrower_name": "Mohammed Farooq",
+      "content": "Interaction Log on 2026-09-05 11:46:00 via IVR Call with Mohammed Farooq (ID: BORR-1008). Collector: Anand M. (Escalation Lead). Borrower Tone: Distressed. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b94236 for 3 months. PTP Commitment: INR 3,530 promised for 2026-10-03. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-05 11:46:00",
+      "context": "Call Log - INT-5022 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1008",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Mohammed Farooq",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1009",
+      "borrower_name": "Ananya Sen",
+      "content": "Interaction Log on 2026-09-19 14:16:00 via Inbound Callback with Ananya Sen (ID: BORR-1009). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-19 14:16:00",
+      "context": "Call Log - INT-5023 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1009",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Ananya Sen",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1009",
+      "borrower_name": "Ananya Sen",
+      "content": "Interaction Log on 2026-09-22 16:18:00 via SMS Urgent Notice with Ananya Sen (ID: BORR-1009). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-22 16:18:00",
+      "context": "Call Log - INT-5024 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1009",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Ananya Sen",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1010",
+      "borrower_name": "Rohan Joshi",
+      "content": "Interaction Log on 2026-06-24 16:23:00 via SMS Urgent Notice with Rohan Joshi (ID: BORR-1010). Collector: Pooja V. (Vasool AI). Borrower Tone: Distressed. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-06-24 16:23:00",
+      "context": "Call Log - INT-5025 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1010",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Rohan Joshi",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1010",
+      "borrower_name": "Rohan Joshi",
+      "content": "Interaction Log on 2026-07-17 09:34:00 via WhatsApp Reminder with Rohan Joshi (ID: BORR-1010). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 2,435 promised for 2026-07-24. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-17 09:34:00",
+      "context": "Call Log - INT-5026 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1010",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Rohan Joshi",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1010",
+      "borrower_name": "Rohan Joshi",
+      "content": "Interaction Log on 2026-08-09 17:52:00 via SMS Urgent Notice with Rohan Joshi (ID: BORR-1010). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Distressed. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 2,435 promised for 2026-08-16. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-09 17:52:00",
+      "context": "Call Log - INT-5027 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1010",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Rohan Joshi",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1010",
+      "borrower_name": "Rohan Joshi",
+      "content": "Interaction Log on 2026-09-01 12:13:00 via IVR Call with Rohan Joshi (ID: BORR-1010). Collector: Pooja V. (Vasool AI). Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 2,435 promised for 2026-09-08. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-01 12:13:00",
+      "context": "Call Log - INT-5028 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1010",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Rohan Joshi",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1011",
+      "borrower_name": "Sneha Kulkarni",
+      "content": "Interaction Log on 2026-09-06 12:35:00 via Outbound Call with Sneha Kulkarni (ID: BORR-1011). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cooperative. Discussion Summary: Borrower cited delayed client receivables for their business invoice. Promised \u20b95931 as soon as vendor clears billing. Previous commitment on 15th failed due to delayed GST refund. PTP Commitment: INR 5,931 promised for 2026-09-11. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-06 12:35:00",
+      "context": "Call Log - INT-5029 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1011",
+        "broken_ptp",
+        "broken_ptp",
+        "b2b_receivables_delay",
+        "broken_ptp",
+        "gst_refund_delay"
+      ],
+      "entities": [
+        {
+          "name": "Sneha Kulkarni",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1011",
+      "borrower_name": "Sneha Kulkarni",
+      "content": "Interaction Log on 2026-09-16 09:49:00 via Outbound Call with Sneha Kulkarni (ID: BORR-1011). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower cited delayed client receivables for their business invoice. Promised \u20b95931 as soon as vendor clears billing. Previous commitment on 15th failed due to delayed GST refund. PTP Commitment: INR 5,931 promised for 2026-09-21. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-16 09:49:00",
+      "context": "Call Log - INT-5030 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1011",
+        "promise_to_pay_(ptp)",
+        "b2b_receivables_delay",
+        "broken_ptp",
+        "gst_refund_delay"
+      ],
+      "entities": [
+        {
+          "name": "Sneha Kulkarni",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1012",
+      "borrower_name": "Manish Tiwari",
+      "content": "Interaction Log on 2026-06-15 18:46:00 via Outbound Call with Manish Tiwari (ID: BORR-1012). Collector: Pooja V. (Vasool AI). Borrower Tone: Defensive. Discussion Summary: Borrower strongly disputed \u20b94246 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-06-15 18:46:00",
+      "context": "Call Log - INT-5031 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1012",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Manish Tiwari",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1012",
+      "borrower_name": "Manish Tiwari",
+      "content": "Interaction Log on 2026-07-10 13:18:00 via WhatsApp Reminder with Manish Tiwari (ID: BORR-1012). Collector: Pooja V. (Vasool AI). Borrower Tone: Angry. Discussion Summary: Borrower strongly disputed \u20b95527 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-10 13:18:00",
+      "context": "Call Log - INT-5032 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1012",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Manish Tiwari",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1012",
+      "borrower_name": "Manish Tiwari",
+      "content": "Interaction Log on 2026-08-06 11:38:00 via IVR Call with Manish Tiwari (ID: BORR-1012). Collector: Vasool Automated Bot. Borrower Tone: Defensive. Discussion Summary: Borrower strongly disputed \u20b97857 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-06 11:38:00",
+      "context": "Call Log - INT-5033 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1012",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Manish Tiwari",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1012",
+      "borrower_name": "Manish Tiwari",
+      "content": "Interaction Log on 2026-08-31 09:52:00 via IVR Call with Manish Tiwari (ID: BORR-1012). Collector: Vasool Automated Bot. Borrower Tone: Defensive. Discussion Summary: Borrower strongly disputed \u20b93348 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-31 09:52:00",
+      "context": "Call Log - INT-5034 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1012",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Manish Tiwari",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1013",
+      "borrower_name": "Pooja Hegde",
+      "content": "Interaction Log on 2026-09-18 13:42:00 via SMS Urgent Notice with Pooja Hegde (ID: BORR-1013). Collector: Vasool Automated Bot. Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-18 13:42:00",
+      "context": "Call Log - INT-5035 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1013",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Pooja Hegde",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1013",
+      "borrower_name": "Pooja Hegde",
+      "content": "Interaction Log on 2026-09-24 15:27:00 via Outbound Call with Pooja Hegde (ID: BORR-1013). Collector: Pooja V. (Vasool AI). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-24 15:27:00",
+      "context": "Call Log - INT-5036 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1013",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Pooja Hegde",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1014",
+      "borrower_name": "Harish Chandra",
+      "content": "Interaction Log on 2026-06-18 18:45:00 via Inbound Callback with Harish Chandra (ID: BORR-1014). Collector: Anand M. (Escalation Lead). Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-06-18 18:45:00",
+      "context": "Call Log - INT-5037 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1014",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Harish Chandra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1014",
+      "borrower_name": "Harish Chandra",
+      "content": "Interaction Log on 2026-07-14 13:33:00 via Outbound Call with Harish Chandra (ID: BORR-1014). Collector: Vasool Automated Bot. Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-14 13:33:00",
+      "context": "Call Log - INT-5038 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1014",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Harish Chandra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1014",
+      "borrower_name": "Harish Chandra",
+      "content": "Interaction Log on 2026-08-06 12:52:00 via Outbound Call with Harish Chandra (ID: BORR-1014). Collector: Vasool Automated Bot. Borrower Tone: Curt. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-06 12:52:00",
+      "context": "Call Log - INT-5039 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1014",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Harish Chandra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1014",
+      "borrower_name": "Harish Chandra",
+      "content": "Interaction Log on 2026-09-01 18:19:00 via Inbound Callback with Harish Chandra (ID: BORR-1014). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-01 18:19:00",
+      "context": "Call Log - INT-5040 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1014",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Harish Chandra",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1015",
+      "borrower_name": "Divya Menon",
+      "content": "Interaction Log on 2026-09-12 12:22:00 via SMS Urgent Notice with Divya Menon (ID: BORR-1015). Collector: Vasool Automated Bot. Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-12 12:22:00",
+      "context": "Call Log - INT-5041 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1015",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Divya Menon",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1015",
+      "borrower_name": "Divya Menon",
+      "content": "Interaction Log on 2026-09-20 12:11:00 via Inbound Callback with Divya Menon (ID: BORR-1015). Collector: Anand M. (Escalation Lead). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-20 12:11:00",
+      "context": "Call Log - INT-5042 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1015",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Divya Menon",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1016",
+      "borrower_name": "Suresh Reddy",
+      "content": "Interaction Log on 2026-06-11 09:16:00 via IVR Call with Suresh Reddy (ID: BORR-1016). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-06-11 09:16:00",
+      "context": "Call Log - INT-5043 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1016",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Suresh Reddy",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1016",
+      "borrower_name": "Suresh Reddy",
+      "content": "Interaction Log on 2026-07-07 14:37:00 via IVR Call with Suresh Reddy (ID: BORR-1016). Collector: Pooja V. (Vasool AI). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 6,892 promised for 2026-07-14. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-07 14:37:00",
+      "context": "Call Log - INT-5044 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1016",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Suresh Reddy",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1016",
+      "borrower_name": "Suresh Reddy",
+      "content": "Interaction Log on 2026-08-03 12:26:00 via Outbound Call with Suresh Reddy (ID: BORR-1016). Collector: Anand M. (Escalation Lead). Borrower Tone: Distressed. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 6,892 promised for 2026-08-10. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-03 12:26:00",
+      "context": "Call Log - INT-5045 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1016",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Suresh Reddy",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1016",
+      "borrower_name": "Suresh Reddy",
+      "content": "Interaction Log on 2026-08-30 17:53:00 via Inbound Callback with Suresh Reddy (ID: BORR-1016). Collector: Vasool Automated Bot. Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 6,892 promised for 2026-09-06. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-08-30 17:53:00",
+      "context": "Call Log - INT-5046 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1016",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Suresh Reddy",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1017",
+      "borrower_name": "Neha Agarwal",
+      "content": "Interaction Log on 2026-05-19 13:45:00 via Inbound Callback with Neha Agarwal (ID: BORR-1017). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-05-19 13:45:00",
+      "context": "Call Log - INT-5047 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1017",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Neha Agarwal",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1017",
+      "borrower_name": "Neha Agarwal",
+      "content": "Interaction Log on 2026-06-20 15:53:00 via Inbound Callback with Neha Agarwal (ID: BORR-1017). Collector: Vasool Automated Bot. Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-06-20 15:53:00",
+      "context": "Call Log - INT-5048 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1017",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Neha Agarwal",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1017",
+      "borrower_name": "Neha Agarwal",
+      "content": "Interaction Log on 2026-07-22 09:29:00 via WhatsApp Reminder with Neha Agarwal (ID: BORR-1017). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-22 09:29:00",
+      "context": "Call Log - INT-5049 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1017",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Neha Agarwal",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1017",
+      "borrower_name": "Neha Agarwal",
+      "content": "Interaction Log on 2026-08-23 18:51:00 via WhatsApp Reminder with Neha Agarwal (ID: BORR-1017). Collector: Anand M. (Escalation Lead). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-23 18:51:00",
+      "context": "Call Log - INT-5050 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1017",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Neha Agarwal",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1018",
+      "borrower_name": "Sanjay Mehta",
+      "content": "Interaction Log on 2026-09-08 11:11:00 via Outbound Call with Sanjay Mehta (ID: BORR-1018). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-08 11:11:00",
+      "context": "Call Log - INT-5051 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1018",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Sanjay Mehta",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1018",
+      "borrower_name": "Sanjay Mehta",
+      "content": "Interaction Log on 2026-09-16 10:39:00 via SMS Urgent Notice with Sanjay Mehta (ID: BORR-1018). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 2,194 promised for 2026-09-23. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-16 10:39:00",
+      "context": "Call Log - INT-5052 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1018",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Sanjay Mehta",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1019",
+      "borrower_name": "Arvind Swaminathan",
+      "content": "Interaction Log on 2026-08-22 16:13:00 via IVR Call with Arvind Swaminathan (ID: BORR-1019). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Angry. Discussion Summary: Borrower strongly disputed \u20b96239 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-22 16:13:00",
+      "context": "Call Log - INT-5053 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1019",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Arvind Swaminathan",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1019",
+      "borrower_name": "Arvind Swaminathan",
+      "content": "Interaction Log on 2026-09-04 16:52:00 via IVR Call with Arvind Swaminathan (ID: BORR-1019). Collector: Vasool Automated Bot. Borrower Tone: Argumentative. Discussion Summary: Borrower strongly disputed \u20b97518 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-04 16:52:00",
+      "context": "Call Log - INT-5054 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1019",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Arvind Swaminathan",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1019",
+      "borrower_name": "Arvind Swaminathan",
+      "content": "Interaction Log on 2026-09-13 17:37:00 via IVR Call with Arvind Swaminathan (ID: BORR-1019). Collector: Anand M. (Escalation Lead). Borrower Tone: Angry. Discussion Summary: Borrower strongly disputed \u20b96388 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-13 17:37:00",
+      "context": "Call Log - INT-5055 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1019",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Arvind Swaminathan",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1020",
+      "borrower_name": "Meera Iyer",
+      "content": "Interaction Log on 2026-07-02 14:44:00 via Outbound Call with Meera Iyer (ID: BORR-1020). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Distressed. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-02 14:44:00",
+      "context": "Call Log - INT-5056 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1020",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Meera Iyer",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1020",
+      "borrower_name": "Meera Iyer",
+      "content": "Interaction Log on 2026-07-24 15:54:00 via Inbound Callback with Meera Iyer (ID: BORR-1020). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Distressed. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 1,589 promised for 2026-07-31. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-24 15:54:00",
+      "context": "Call Log - INT-5057 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1020",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Meera Iyer",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1020",
+      "borrower_name": "Meera Iyer",
+      "content": "Interaction Log on 2026-08-13 15:31:00 via IVR Call with Meera Iyer (ID: BORR-1020). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 1,589 promised for 2026-08-20. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-13 15:31:00",
+      "context": "Call Log - INT-5058 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1020",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Meera Iyer",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1020",
+      "borrower_name": "Meera Iyer",
+      "content": "Interaction Log on 2026-09-04 12:36:00 via SMS Urgent Notice with Meera Iyer (ID: BORR-1020). Collector: Pooja V. (Vasool AI). Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 1,589 promised for 2026-09-11. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-04 12:36:00",
+      "context": "Call Log - INT-5059 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1020",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Meera Iyer",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1021",
+      "borrower_name": "Karan Singhania",
+      "content": "Interaction Log on 2026-09-11 09:34:00 via WhatsApp Reminder with Karan Singhania (ID: BORR-1021). Collector: Anand M. (Escalation Lead). Borrower Tone: Defensive. Discussion Summary: Borrower strongly disputed \u20b93852 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-11 09:34:00",
+      "context": "Call Log - INT-5060 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1021",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Karan Singhania",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1021",
+      "borrower_name": "Karan Singhania",
+      "content": "Interaction Log on 2026-09-19 11:49:00 via IVR Call with Karan Singhania (ID: BORR-1021). Collector: Pooja V. (Vasool AI). Borrower Tone: Argumentative. Discussion Summary: Borrower strongly disputed \u20b97348 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-19 11:49:00",
+      "context": "Call Log - INT-5061 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1021",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Karan Singhania",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1022",
+      "borrower_name": "Radhika Verma",
+      "content": "Interaction Log on 2026-07-24 13:36:00 via WhatsApp Reminder with Radhika Verma (ID: BORR-1022). Collector: Pooja V. (Vasool AI). Borrower Tone: Stressed. Discussion Summary: Borrower cited delayed client receivables for their business invoice. Promised \u20b923524 as soon as vendor clears billing. Previous commitment on 15th failed due to delayed GST refund. PTP Commitment: INR 23,524 promised for 2026-07-29. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-24 13:36:00",
+      "context": "Call Log - INT-5062 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1022",
+        "broken_ptp",
+        "broken_ptp",
+        "b2b_receivables_delay",
+        "broken_ptp",
+        "gst_refund_delay"
+      ],
+      "entities": [
+        {
+          "name": "Radhika Verma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1022",
+      "borrower_name": "Radhika Verma",
+      "content": "Interaction Log on 2026-08-10 17:13:00 via WhatsApp Reminder with Radhika Verma (ID: BORR-1022). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Cooperative. Discussion Summary: Borrower cited delayed client receivables for their business invoice. Promised \u20b923524 as soon as vendor clears billing. Previous commitment on 15th failed due to delayed GST refund. PTP Commitment: INR 23,524 promised for 2026-08-15. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-10 17:13:00",
+      "context": "Call Log - INT-5063 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1022",
+        "broken_ptp",
+        "broken_ptp",
+        "b2b_receivables_delay",
+        "broken_ptp",
+        "gst_refund_delay"
+      ],
+      "entities": [
+        {
+          "name": "Radhika Verma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1022",
+      "borrower_name": "Radhika Verma",
+      "content": "Interaction Log on 2026-08-26 09:11:00 via Inbound Callback with Radhika Verma (ID: BORR-1022). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Defensive. Discussion Summary: Borrower cited delayed client receivables for their business invoice. Promised \u20b923524 as soon as vendor clears billing. Previous commitment on 15th failed due to delayed GST refund. PTP Commitment: INR 23,524 promised for 2026-08-31. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-26 09:11:00",
+      "context": "Call Log - INT-5064 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1022",
+        "broken_ptp",
+        "broken_ptp",
+        "b2b_receivables_delay",
+        "broken_ptp",
+        "gst_refund_delay"
+      ],
+      "entities": [
+        {
+          "name": "Radhika Verma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1022",
+      "borrower_name": "Radhika Verma",
+      "content": "Interaction Log on 2026-09-09 11:25:00 via Inbound Callback with Radhika Verma (ID: BORR-1022). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower cited delayed client receivables for their business invoice. Promised \u20b923524 as soon as vendor clears billing. Previous commitment on 15th failed due to delayed GST refund. PTP Commitment: INR 23,524 promised for 2026-09-14. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-09 11:25:00",
+      "context": "Call Log - INT-5065 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1022",
+        "promise_to_pay_(ptp)",
+        "b2b_receivables_delay",
+        "broken_ptp",
+        "gst_refund_delay"
+      ],
+      "entities": [
+        {
+          "name": "Radhika Verma",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1023",
+      "borrower_name": "Naveen Kumar",
+      "content": "Interaction Log on 2026-05-30 18:53:00 via SMS Urgent Notice with Naveen Kumar (ID: BORR-1023). Collector: Anand M. (Escalation Lead). Borrower Tone: Defensive. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b92925 for 3 months. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-05-30 18:53:00",
+      "context": "Call Log - INT-5066 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1023",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Naveen Kumar",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1023",
+      "borrower_name": "Naveen Kumar",
+      "content": "Interaction Log on 2026-06-30 10:47:00 via Inbound Callback with Naveen Kumar (ID: BORR-1023). Collector: Pooja V. (Vasool AI). Borrower Tone: Defensive. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b92925 for 3 months. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-06-30 10:47:00",
+      "context": "Call Log - INT-5067 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1023",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Naveen Kumar",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1023",
+      "borrower_name": "Naveen Kumar",
+      "content": "Interaction Log on 2026-07-29 18:17:00 via IVR Call with Naveen Kumar (ID: BORR-1023). Collector: Pooja V. (Vasool AI). Borrower Tone: Anxious. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b92925 for 3 months. PTP Commitment: INR 2,438 promised for 2026-10-03. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-29 18:17:00",
+      "context": "Call Log - INT-5068 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1023",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Naveen Kumar",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1023",
+      "borrower_name": "Naveen Kumar",
+      "content": "Interaction Log on 2026-08-27 15:52:00 via WhatsApp Reminder with Naveen Kumar (ID: BORR-1023). Collector: Pooja V. (Vasool AI). Borrower Tone: Defensive. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b92925 for 3 months. PTP Commitment: INR 2,438 promised for 2026-10-03. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-27 15:52:00",
+      "context": "Call Log - INT-5069 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1023",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Naveen Kumar",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1024",
+      "borrower_name": "Preeti Deshmukh",
+      "content": "Interaction Log on 2026-07-01 17:51:00 via WhatsApp Reminder with Preeti Deshmukh (ID: BORR-1024). Collector: Anand M. (Escalation Lead). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-01 17:51:00",
+      "context": "Call Log - INT-5070 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1024",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Preeti Deshmukh",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1024",
+      "borrower_name": "Preeti Deshmukh",
+      "content": "Interaction Log on 2026-07-23 18:27:00 via WhatsApp Reminder with Preeti Deshmukh (ID: BORR-1024). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-23 18:27:00",
+      "context": "Call Log - INT-5071 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1024",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Preeti Deshmukh",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1024",
+      "borrower_name": "Preeti Deshmukh",
+      "content": "Interaction Log on 2026-08-13 16:25:00 via SMS Urgent Notice with Preeti Deshmukh (ID: BORR-1024). Collector: Anand M. (Escalation Lead). Borrower Tone: Cold. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-13 16:25:00",
+      "context": "Call Log - INT-5072 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1024",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Preeti Deshmukh",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1024",
+      "borrower_name": "Preeti Deshmukh",
+      "content": "Interaction Log on 2026-09-04 16:30:00 via Inbound Callback with Preeti Deshmukh (ID: BORR-1024). Collector: Anand M. (Escalation Lead). Borrower Tone: Evasive. Discussion Summary: Borrower disconnected call abruptly after stating they were in a meeting. On callback, claimed wrong number or said 'I will see next week'. No concrete commitment provided. Recorded Outcome: Refused to Pay.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-04 16:30:00",
+      "context": "Call Log - INT-5073 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1024",
+        "refused_to_pay",
+        "evasive",
+        "call_disconnected",
+        "unresponsive_debtor"
+      ],
+      "entities": [
+        {
+          "name": "Preeti Deshmukh",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1025",
+      "borrower_name": "Gaurav Saxena",
+      "content": "Interaction Log on 2026-07-29 12:54:00 via SMS Urgent Notice with Gaurav Saxena (ID: BORR-1025). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-29 12:54:00",
+      "context": "Call Log - INT-5074 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1025",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Gaurav Saxena",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1025",
+      "borrower_name": "Gaurav Saxena",
+      "content": "Interaction Log on 2026-08-19 10:28:00 via Inbound Callback with Gaurav Saxena (ID: BORR-1025). Collector: Anand M. (Escalation Lead). Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 1,120 promised for 2026-08-26. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-19 10:28:00",
+      "context": "Call Log - INT-5075 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1025",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Gaurav Saxena",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1025",
+      "borrower_name": "Gaurav Saxena",
+      "content": "Interaction Log on 2026-09-07 13:52:00 via IVR Call with Gaurav Saxena (ID: BORR-1025). Collector: Vasool Automated Bot. Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 1,120 promised for 2026-09-14. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-07 13:52:00",
+      "context": "Call Log - INT-5076 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1025",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Gaurav Saxena",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1026",
+      "borrower_name": "Shalini Bose",
+      "content": "Interaction Log on 2026-08-03 12:30:00 via Outbound Call with Shalini Bose (ID: BORR-1026). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Distressed. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b99909 for 3 months. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-03 12:30:00",
+      "context": "Call Log - INT-5077 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1026",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Shalini Bose",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1026",
+      "borrower_name": "Shalini Bose",
+      "content": "Interaction Log on 2026-08-23 16:27:00 via IVR Call with Shalini Bose (ID: BORR-1026). Collector: Vasool Automated Bot. Borrower Tone: Distressed. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b99909 for 3 months. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-23 16:27:00",
+      "context": "Call Log - INT-5078 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1026",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Shalini Bose",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1026",
+      "borrower_name": "Shalini Bose",
+      "content": "Interaction Log on 2026-09-10 13:24:00 via WhatsApp Reminder with Shalini Bose (ID: BORR-1026). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Anxious. Discussion Summary: Borrower informed about layoff in tech sector downsizing. Currently attending interviews. Requested emergency moratorium or reduced EMI of \u20b99909 for 3 months. PTP Commitment: INR 8,257 promised for 2026-10-03. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-10 13:24:00",
+      "context": "Call Log - INT-5079 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1026",
+        "restructure_requested",
+        "job_loss",
+        "layoff",
+        "restructuring_requested",
+        "reduced_capacity"
+      ],
+      "entities": [
+        {
+          "name": "Shalini Bose",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1027",
+      "borrower_name": "Tarun Bhatia",
+      "content": "Interaction Log on 2026-09-21 16:38:00 via WhatsApp Reminder with Tarun Bhatia (ID: BORR-1027). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Distressed. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-21 16:38:00",
+      "context": "Call Log - INT-5080 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1027",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Tarun Bhatia",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1027",
+      "borrower_name": "Tarun Bhatia",
+      "content": "Interaction Log on 2026-09-24 16:17:00 via Outbound Call with Tarun Bhatia (ID: BORR-1027). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 18,926 promised for 2026-09-28. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-24 16:17:00",
+      "context": "Call Log - INT-5081 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1027",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Tarun Bhatia",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1028",
+      "borrower_name": "Swati Pandey",
+      "content": "Interaction Log on 2026-07-26 18:24:00 via IVR Call with Swati Pandey (ID: BORR-1028). Collector: Anand M. (Escalation Lead). Borrower Tone: Cooperative. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-26 18:24:00",
+      "context": "Call Log - INT-5082 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1028",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Swati Pandey",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1028",
+      "borrower_name": "Swati Pandey",
+      "content": "Interaction Log on 2026-08-11 13:47:00 via SMS Urgent Notice with Swati Pandey (ID: BORR-1028). Collector: Vasool Automated Bot. Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 3,989 promised for 2026-08-18. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-11 13:47:00",
+      "context": "Call Log - INT-5083 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1028",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Swati Pandey",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1028",
+      "borrower_name": "Swati Pandey",
+      "content": "Interaction Log on 2026-08-25 09:49:00 via Outbound Call with Swati Pandey (ID: BORR-1028). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 3,989 promised for 2026-09-01. [BROKEN PROMISE] Recorded Outcome: Broken PTP.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-25 09:49:00",
+      "context": "Call Log - INT-5084 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1028",
+        "broken_ptp",
+        "broken_ptp",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Swati Pandey",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1028",
+      "borrower_name": "Swati Pandey",
+      "content": "Interaction Log on 2026-09-11 13:52:00 via Outbound Call with Swati Pandey (ID: BORR-1028). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Distressed. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 3,989 promised for 2026-09-18. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-11 13:52:00",
+      "context": "Call Log - INT-5085 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1028",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Swati Pandey",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1029",
+      "borrower_name": "Ashok Pillai",
+      "content": "Interaction Log on 2026-09-22 16:14:00 via Inbound Callback with Ashok Pillai (ID: BORR-1029). Collector: Vasool Automated Bot. Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. Recorded Outcome: Restructure Requested.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-22 16:14:00",
+      "context": "Call Log - INT-5086 (Inbound Callback)",
+      "tags": [
+        "interaction",
+        "BORR-1029",
+        "restructure_requested",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Ashok Pillai",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1029",
+      "borrower_name": "Ashok Pillai",
+      "content": "Interaction Log on 2026-09-23 12:37:00 via Outbound Call with Ashok Pillai (ID: BORR-1029). Collector: Ramesh K. (Senior Specialist). Borrower Tone: Hesitant. Discussion Summary: Borrower explained financial crisis due to family medical treatment at hospital. Stated savings were depleted. Requested waiver of late charges and asked for time until month-end salary. PTP Commitment: INR 2,008 promised for 2026-09-28. Recorded Outcome: Promise to Pay (PTP).",
+      "type": "interaction_log",
+      "timestamp": "2026-09-23 12:37:00",
+      "context": "Call Log - INT-5087 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1029",
+        "promise_to_pay_(ptp)",
+        "medical_hardship",
+        "family_hospitalization",
+        "request_late_fee_waiver"
+      ],
+      "entities": [
+        {
+          "name": "Ashok Pillai",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1030",
+      "borrower_name": "Leena Fernandes",
+      "content": "Interaction Log on 2026-07-26 15:27:00 via IVR Call with Leena Fernandes (ID: BORR-1030). Collector: Anand M. (Escalation Lead). Borrower Tone: Argumentative. Discussion Summary: Borrower strongly disputed \u20b93158 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-07-26 15:27:00",
+      "context": "Call Log - INT-5088 (IVR Call)",
+      "tags": [
+        "interaction",
+        "BORR-1030",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Leena Fernandes",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1030",
+      "borrower_name": "Leena Fernandes",
+      "content": "Interaction Log on 2026-08-09 09:37:00 via WhatsApp Reminder with Leena Fernandes (ID: BORR-1030). Collector: Vasool Automated Bot. Borrower Tone: Angry. Discussion Summary: Borrower strongly disputed \u20b93248 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-09 09:37:00",
+      "context": "Call Log - INT-5089 (WhatsApp Reminder)",
+      "tags": [
+        "interaction",
+        "BORR-1030",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Leena Fernandes",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1030",
+      "borrower_name": "Leena Fernandes",
+      "content": "Interaction Log on 2026-08-26 18:47:00 via Outbound Call with Leena Fernandes (ID: BORR-1030). Collector: Vasool Automated Bot. Borrower Tone: Defensive. Discussion Summary: Borrower strongly disputed \u20b92829 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-08-26 18:47:00",
+      "context": "Call Log - INT-5090 (Outbound Call)",
+      "tags": [
+        "interaction",
+        "BORR-1030",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Leena Fernandes",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1030",
+      "borrower_name": "Leena Fernandes",
+      "content": "Interaction Log on 2026-09-10 16:43:00 via SMS Urgent Notice with Leena Fernandes (ID: BORR-1030). Collector: Vasool Automated Bot. Borrower Tone: Angry. Discussion Summary: Borrower strongly disputed \u20b97295 penal interest and bounce charges added to statement. Demanded statement reversal before making any principal payment. Recorded Outcome: Dispute Raised.",
+      "type": "interaction_log",
+      "timestamp": "2026-09-10 16:43:00",
+      "context": "Call Log - INT-5091 (SMS Urgent Notice)",
+      "tags": [
+        "interaction",
+        "BORR-1030",
+        "dispute_raised",
+        "penal_charges_dispute",
+        "demanded_charge_reversal",
+        "contested_fees"
+      ],
+      "entities": [
+        {
+          "name": "Leena Fernandes",
+          "type": "borrower"
+        }
+      ]
+    },
+    {
+      "borrower_id": "BORR-1001",
+      "content": "Borrower Rajesh Sharma pledged Promise to Pay (PTP) of INR 6,679 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1001"
+      ],
+      "timestamp": "2026-09-28T23:57:32.116764"
+    },
+    {
+      "borrower_id": "BORR-1002",
+      "content": "Borrower Priya Sundaram pledged Promise to Pay (PTP) of INR 34,782 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1002"
+      ],
+      "timestamp": "2026-09-28T23:57:32.149578"
+    },
+    {
+      "borrower_id": "BORR-1003",
+      "content": "Borrower Amit Patel pledged Promise to Pay (PTP) of INR 9,065 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1003"
+      ],
+      "timestamp": "2026-09-28T23:57:32.176922"
+    },
+    {
+      "borrower_id": "BORR-1004",
+      "content": "Borrower Sunita Rao pledged Promise to Pay (PTP) of INR 4,142 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1004"
+      ],
+      "timestamp": "2026-09-28T23:57:32.199181"
+    },
+    {
+      "borrower_id": "BORR-1005",
+      "content": "Borrower Vikram Malhotra pledged Promise to Pay (PTP) of INR 4,770 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1005"
+      ],
+      "timestamp": "2026-09-28T23:57:32.220883"
+    },
+    {
+      "borrower_id": "BORR-1006",
+      "content": "Borrower Deepak Gupta pledged Promise to Pay (PTP) of INR 17,483 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1006"
+      ],
+      "timestamp": "2026-09-28T23:57:32.243584"
+    },
+    {
+      "borrower_id": "BORR-1007",
+      "content": "Borrower Kavita Nair pledged Promise to Pay (PTP) of INR 30,924 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1007"
+      ],
+      "timestamp": "2026-09-28T23:57:32.263674"
+    },
+    {
+      "borrower_id": "BORR-1008",
+      "content": "Borrower Mohammed Farooq pledged Promise to Pay (PTP) of INR 7,061 on 2026-10-02.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1008"
+      ],
+      "timestamp": "2026-09-28T23:57:32.296021"
+    },
+    {
+      "borrower_id": "BORR-1009",
+      "content": "Borrower Ananya Sen pledged Promise to Pay (PTP) of INR 3,667 on 2026-09-28.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1009"
+      ],
+      "timestamp": "2026-09-28T23:57:32.318178"
+    },
+    {
+      "borrower_id": "BORR-1010",
+      "content": "Borrower Rohan Joshi pledged Promise to Pay (PTP) of INR 4,871 on 2026-10-05.",
+      "context": "Live Vasool Chat Turn",
+      "tags": [
+        "ptp_committed",
+        "live_session",
+        "BORR-1010"
+      ],
+      "timestamp": "2026-09-28T23:57:32.343012"
+    }
+  ]
+}

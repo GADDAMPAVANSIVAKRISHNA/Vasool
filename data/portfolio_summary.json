@@ -1,0 +1,24 @@
+{
+  "as_of_date": "2026-09-28",
+  "total_borrowers": 30,
+  "total_outstanding_inr": 985261,
+  "total_principal_inr": 8351636,
+  "average_dpd": 53.4,
+  "ptp_accounts": 13,
+  "high_risk_accounts": 13,
+  "risk_bucket_distribution": {
+    "0-30 DPD (Early)": 12,
+    "61-90 DPD (High)": 7,
+    "90+ DPD (Critical / NPA)": 6,
+    "31-60 DPD (Mid)": 5
+  },
+  "loan_type_distribution": {
+    "Personal Loan": 6,
+    "MSME Business Loan": 6,
+    "Credit Card Outstanding": 6,
+    "Two-Wheeler Loan": 6,
+    "Consumer Durable Loan": 6
+  },
+  "total_interactions_logged": 91,
+  "broken_ptp_total": 13
+}

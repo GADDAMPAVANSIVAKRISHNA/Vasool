@@ -1,0 +1,185 @@
+{
+  "bucketed": [
+    {
+      "history_size": 8,
+      "error_days": 19.4
+    },
+    {
+      "history_size": 13,
+      "error_days": 10.0
+    },
+    {
+      "history_size": 20,
+      "error_days": 15.1
+    }
+  ],
+  "detailed": [
+    {
+      "buyer": "Patel Textiles",
+      "invoice_id": "INV-1010",
+      "history_size": 6,
+      "predicted_date": "2024-11-14",
+      "actual_date": "2024-12-06",
+      "error_days": 22
+    },
+    {
+      "buyer": "Patel Textiles",
+      "invoice_id": "INV-1011",
+      "history_size": 16,
+      "predicted_date": "2025-02-13",
+      "actual_date": "2025-02-08",
+      "error_days": 5
+    },
+    {
+      "buyer": "Patel Textiles",
+      "invoice_id": "INV-1012",
+      "history_size": 24,
+      "predicted_date": "2025-03-12",
+      "actual_date": "2025-03-13",
+      "error_days": 1
+    },
+    {
+      "buyer": "Patel Textiles",
+      "invoice_id": "INV-1013",
+      "history_size": 25,
+      "predicted_date": "2025-03-09",
+      "actual_date": "2025-03-24",
+      "error_days": 15
+    },
+    {
+      "buyer": "Pillai Spices",
+      "invoice_id": "INV-1085",
+      "history_size": 6,
+      "predicted_date": "2024-11-22",
+      "actual_date": "2024-11-25",
+      "error_days": 3
+    },
+    {
+      "buyer": "Pillai Spices",
+      "invoice_id": "INV-1086",
+      "history_size": 12,
+      "predicted_date": "2024-12-27",
+      "actual_date": "2024-12-27",
+      "error_days": 0
+    },
+    {
+      "buyer": "Pillai Spices",
+      "invoice_id": "INV-1087",
+      "history_size": 18,
+      "predicted_date": "2025-01-07",
+      "actual_date": "2025-01-27",
+      "error_days": 20
+    },
+    {
+      "buyer": "Pillai Spices",
+      "invoice_id": "INV-1088",
+      "history_size": 24,
+      "predicted_date": "2025-02-22",
+      "actual_date": "2025-02-17",
+      "error_days": 5
+    },
+    {
+      "buyer": "Pillai Spices",
+      "invoice_id": "INV-1089",
+      "history_size": 30,
+      "predicted_date": "2025-03-20",
+      "actual_date": "2025-03-27",
+      "error_days": 7
+    },
+    {
+      "buyer": "Mehta Hardware",
+      "invoice_id": "INV-1019",
+      "history_size": 6,
+      "predicted_date": "2024-11-15",
+      "actual_date": "2024-11-26",
+      "error_days": 11
+    },
+    {
+      "buyer": "Mehta Hardware",
+      "invoice_id": "INV-1020",
+      "history_size": 12,
+      "predicted_date": "2024-12-17",
+      "actual_date": "2024-12-30",
+      "error_days": 13
+    },
+    {
+      "buyer": "Mehta Hardware",
+      "invoice_id": "INV-1021",
+      "history_size": 18,
+      "predicted_date": "2025-01-27",
+      "actual_date": "2025-02-23",
+      "error_days": 27
+    },
+    {
+      "buyer": "Mehta Hardware",
+      "invoice_id": "INV-1022",
+      "history_size": 24,
+      "predicted_date": "2025-03-09",
+      "actual_date": "2025-03-28",
+      "error_days": 19
+    },
+    {
+      "buyer": "Gupta Steels",
+      "invoice_id": "INV-1005",
+      "history_size": 7,
+      "predicted_date": "2024-11-11",
+      "actual_date": "2024-12-08",
+      "error_days": 27
+    },
+    {
+      "buyer": "Gupta Steels",
+      "invoice_id": "INV-1006",
+      "history_size": 18,
+      "predicted_date": "2025-01-20",
+      "actual_date": "2025-02-12",
+      "error_days": 23
+    },
+    {
+      "buyer": "Gupta Steels",
+      "invoice_id": "INV-1007",
+      "history_size": 25,
+      "predicted_date": "2025-02-15",
+      "actual_date": "2025-03-09",
+      "error_days": 22
+    },
+    {
+      "buyer": "Rao Electricals",
+      "invoice_id": "INV-1069",
+      "history_size": 7,
+      "predicted_date": "2024-11-09",
+      "actual_date": "2024-12-13",
+      "error_days": 34
+    },
+    {
+      "buyer": "Rao Electricals",
+      "invoice_id": "INV-1070",
+      "history_size": 13,
+      "predicted_date": "2024-12-22",
+      "actual_date": "2025-01-08",
+      "error_days": 17
+    },
+    {
+      "buyer": "Rao Electricals",
+      "invoice_id": "INV-1071",
+      "history_size": 27,
+      "predicted_date": "2025-01-30",
+      "actual_date": "2025-02-09",
+      "error_days": 10
+    },
+    {
+      "buyer": "Rao Electricals",
+      "invoice_id": "INV-1072",
+      "history_size": 31,
+      "predicted_date": "2025-02-09",
+      "actual_date": "2025-03-08",
+      "error_days": 27
+    }
+  ],
+  "sample_buyers": [
+    "Patel Textiles",
+    "Pillai Spices",
+    "Mehta Hardware",
+    "Gupta Steels",
+    "Rao Electricals"
+  ]
+}

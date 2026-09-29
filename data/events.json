@@ -1,0 +1,4660 @@
+[
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-10-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1018 for Rs 34,000 sent to Mehta Hardware.",
+    "amount": 34000,
+    "invoice_id": "INV-1018"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-10-03",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1084 for Rs 115,000 sent to Pillai Spices.",
+    "amount": 115000,
+    "invoice_id": "INV-1084"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-10-03",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1001 for Rs 77,000 sent to Sharma Traders.",
+    "amount": 77000,
+    "invoice_id": "INV-1001"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-10-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1068 for Rs 57,000 sent to Rao Electricals.",
+    "amount": 57000,
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-10-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1004 for Rs 161,000 sent to Gupta Steels.",
+    "amount": 161000,
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-10-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1049 for Rs 65,000 sent to Joshi Foods.",
+    "amount": 65000,
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-10-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1027 for Rs 104,000 sent to Khan Fabrics.",
+    "amount": 104000,
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-10-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1090 for Rs 40,000 sent to Sethi Metals.",
+    "amount": 40000,
+    "invoice_id": "INV-1090"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-10-07",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1054 for Rs 199,000 sent to Chopra Garments.",
+    "amount": 199000,
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-10-08",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1059 for Rs 93,000 sent to Malhotra Pharma.",
+    "amount": 93000,
+    "invoice_id": "INV-1059"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-10-11",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1044 for Rs 112,000 sent to Verma Motors.",
+    "amount": 112000,
+    "invoice_id": "INV-1044"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-10-13",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1079 for Rs 111,000 sent to Banerjee Paper.",
+    "amount": 111000,
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-10-13",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1009 for Rs 148,000 sent to Patel Textiles.",
+    "amount": 148000,
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-10-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1073 for Rs 77,000 sent to Kulkarni Tools.",
+    "amount": 77000,
+    "invoice_id": "INV-1073"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-10-19",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Hello! Invoice INV-1027 ke Rs 104,000 ke baare mein poochhna tha. Kab tak ho jayega?",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-10-20",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Bhai, invoice INV-1001 ka Rs 77,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1001"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-10-21",
+    "type": "reminder_sent",
+    "text": "[email/polite] Hi, this is a friendly reminder for invoice INV-1049 (Rs 65,000). Please let us know the expected date.",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-10-21",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Gentle reminder: Invoice INV-1084 of Rs 115,000 is due. Kindly process at the earliest.",
+    "invoice_id": "INV-1084"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-10-21",
+    "type": "buyer_reply",
+    "text": "Haan bhai, kal kar dunga payment.",
+    "invoice_id": "INV-1001"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-10-21",
+    "type": "promise",
+    "text": "I'll pay by 2024-10-21.",
+    "invoice_id": "INV-1001"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-10-21",
+    "type": "payment_received",
+    "text": "Rs 77,000 received from Sharma Traders for invoice INV-1001.",
+    "amount": 77000,
+    "invoice_id": "INV-1001"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-10-21",
+    "type": "agent_action",
+    "text": "Payment of Rs 77,000 received against invoice INV-1001. Account updated.",
+    "invoice_id": "INV-1001"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-10-22",
+    "type": "buyer_reply",
+    "text": "Sir, payment kal tak kar dunga.",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-10-22",
+    "type": "promise",
+    "text": "Next week pakka, by 2024-10-26.",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-10-22",
+    "type": "buyer_reply",
+    "text": "Account mein thoda issue tha, next week fix ho jayega.",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-10-22",
+    "type": "promise",
+    "text": "I'll pay by 2024-10-25.",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-10-22",
+    "type": "buyer_reply",
+    "text": "Haan bhai, kal kar dunga payment.",
+    "invoice_id": "INV-1084"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-10-22",
+    "type": "promise",
+    "text": "Pakka 2024-10-24 tak. Trust me.",
+    "invoice_id": "INV-1084"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-10-23",
+    "type": "reminder_sent",
+    "text": "[email/polite] Gentle reminder: Invoice INV-1018 of Rs 34,000 is due. Kindly process at the earliest.",
+    "invoice_id": "INV-1018"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-10-23",
+    "type": "buyer_reply",
+    "text": "Sure, processing today itself.",
+    "invoice_id": "INV-1018"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-10-23",
+    "type": "promise",
+    "text": "2024-10-23 tak NEFT kar dunga.",
+    "invoice_id": "INV-1018"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-10-23",
+    "type": "payment_received",
+    "text": "Rs 34,000 received from Mehta Hardware for invoice INV-1018.",
+    "amount": 34000,
+    "invoice_id": "INV-1018"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-10-23",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 34,000 (INV-1018). Sending thank-you note.",
+    "invoice_id": "INV-1018"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-10-25",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Bhai, invoice INV-1004 ka Rs 161,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-10-25",
+    "type": "payment_received",
+    "text": "Rs 115,000 received from Pillai Spices for invoice INV-1084.",
+    "amount": 115000,
+    "invoice_id": "INV-1084"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-10-25",
+    "type": "agent_action",
+    "text": "Payment of Rs 115,000 received against invoice INV-1084. Account updated.",
+    "invoice_id": "INV-1084"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-10-25",
+    "type": "reminder_sent",
+    "text": "[email/polite] Sir, invoice INV-1068 ka payment pending hai — Rs 57,000. Request you to kindly clear it.",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-10-26",
+    "type": "reminder_sent",
+    "text": "[email/firm] We have not received Rs 199,000 against invoice INV-1054. Please treat this as urgent.",
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-10-26",
+    "type": "buyer_reply",
+    "text": "Bhai, thoda time chahiye. 4-5 din mein kar dunga.",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-10-26",
+    "type": "promise",
+    "text": "Next week pakka, by 2024-10-28.",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-10-26",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2024-10-26.",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-10-26",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Hi! Just checking — invoice INV-1059 (Rs 93,000) ka kya status hai?",
+    "invoice_id": "INV-1059"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-10-26",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1059"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-10-26",
+    "type": "promise",
+    "text": "I'll pay by 2024-10-28.",
+    "invoice_id": "INV-1059"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-10-26",
+    "type": "buyer_reply",
+    "text": "Sir, payment kal tak kar dunga.",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-10-26",
+    "type": "promise",
+    "text": "Promise — 2024-10-30 se pehle ho jayega.",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-10-27",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2024-10-27.",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-10-27",
+    "type": "reminder_sent",
+    "text": "[call/firm] Khan Fabrics, aapne 2024-10-25 tak payment ka promise kiya tha. Invoice INV-1027 Rs 104,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-10-28",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Chopra Garments, invoice INV-1054 (Rs 199,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-10-28",
+    "type": "reminder_sent",
+    "text": "[call/firm] Joshi Foods, aapne 2024-10-26 tak payment ka promise kiya tha. Invoice INV-1049 Rs 65,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-10-28",
+    "type": "buyer_reply",
+    "text": "Account issue tha, 2 din mein fix hoga.",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-10-28",
+    "type": "buyer_reply",
+    "text": "Sorry bhai, thoda aur delay ho gaya.",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-10-28",
+    "type": "reminder_sent",
+    "text": "[call/firm] We have not received Rs 40,000 against invoice INV-1090. Please treat this as urgent.",
+    "invoice_id": "INV-1090"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-10-29",
+    "type": "agent_action",
+    "text": "Marked for follow-up call on 2024-10-29.",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-10-29",
+    "type": "payment_received",
+    "text": "Rs 93,000 received from Malhotra Pharma for invoice INV-1059.",
+    "amount": 93000,
+    "invoice_id": "INV-1059"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-10-29",
+    "type": "agent_action",
+    "text": "Payment of Rs 93,000 received against invoice INV-1059. Account updated.",
+    "invoice_id": "INV-1059"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-10-30",
+    "type": "reminder_sent",
+    "text": "[call/firm] Gupta Steels, aapne 2024-10-28 tak payment ka promise kiya tha. Invoice INV-1004 Rs 161,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-10-30",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Sir, ek chhota sa reminder — Rs 148,000 invoice INV-1009 ke liye. No rush, but please update.",
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-10-30",
+    "type": "buyer_reply",
+    "text": "Will check.",
+    "invoice_id": "INV-1090"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-10-31",
+    "type": "reminder_sent",
+    "text": "[call/polite] Sir, invoice INV-1079 ka payment pending hai — Rs 111,000. Request you to kindly clear it.",
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-10-31",
+    "type": "buyer_reply",
+    "text": "Account issue tha, 2 din mein fix hoga.",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-10-31",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2024-10-31.",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-10-31",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sethi Metals, invoice INV-1090 (Rs 40,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1090"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-01",
+    "type": "agent_action",
+    "text": "Called Chopra Garments directly regarding invoice INV-1054.",
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-01",
+    "type": "buyer_reply",
+    "text": "Acha acha, call aaya toh yaad aaya. Kal kar deta hoon.",
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-01",
+    "type": "promise",
+    "text": "Pakka 2024-11-03 tak. Trust me.",
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1055 for Rs 84,000 sent to Chopra Garments.",
+    "amount": 84000,
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-11-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1085 for Rs 162,000 sent to Pillai Spices.",
+    "amount": 162000,
+    "invoice_id": "INV-1085"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-11-02",
+    "type": "payment_received",
+    "text": "Rs 104,000 received from Khan Fabrics for invoice INV-1027 (late by 8 days).",
+    "amount": 104000,
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-11-02",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 104,000 (INV-1027). Sending thank-you note.",
+    "invoice_id": "INV-1027"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-02",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Patel Textiles, invoice INV-1009 (Rs 148,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-03",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1005 for Rs 113,000 sent to Gupta Steels.",
+    "amount": 113000,
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-11-03",
+    "type": "reminder_sent",
+    "text": "[call/firm] Rao Electricals, aapne 2024-10-30 tak payment ka promise kiya tha. Invoice INV-1068 Rs 57,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-11-03",
+    "type": "buyer_reply",
+    "text": "Haan yaar, kal pakka this time.",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-11-03",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Sir, aapka payment Rs 112,000 (Inv INV-1044) overdue ho chuka hai. Urgent action required.",
+    "invoice_id": "INV-1044"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-04",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Banerjee Paper, invoice INV-1079 (Rs 111,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-04",
+    "type": "payment_received",
+    "text": "Rs 199,000 received from Chopra Garments for invoice INV-1054 after phone follow-up.",
+    "amount": 199000,
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-04",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 199,000 (INV-1054). Sending thank-you note.",
+    "invoice_id": "INV-1054"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2024-11-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1023 for Rs 107,000 sent to Iyer Exports.",
+    "amount": 107000,
+    "invoice_id": "INV-1023"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-11-04",
+    "type": "reminder_sent",
+    "text": "[call/polite] Namaskar, invoice INV-1073 ka Rs 77,000 abhi tak receive nahi hua. Kindly update.",
+    "invoice_id": "INV-1073"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-04",
+    "type": "agent_action",
+    "text": "Called Patel Textiles directly regarding invoice INV-1009.",
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-04",
+    "type": "buyer_reply",
+    "text": "Oh haan, bhool gaya tha. Abhi karta hoon.",
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-04",
+    "type": "promise",
+    "text": "2024-11-05 tak NEFT kar dunga.",
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-11-05",
+    "type": "buyer_reply",
+    "text": "Ok.",
+    "invoice_id": "INV-1073"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-11-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1031 for Rs 41,000 sent to Singh Agro.",
+    "amount": 41000,
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-06",
+    "type": "agent_action",
+    "text": "Called Banerjee Paper directly regarding invoice INV-1079.",
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-06",
+    "type": "buyer_reply",
+    "text": "Haan sir, call ke baad hi process karta hoon. Parson tak.",
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-06",
+    "type": "promise",
+    "text": "Promise — 2024-11-09 se pehle ho jayega.",
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-06",
+    "type": "payment_received",
+    "text": "Rs 65,000 received from Joshi Foods for invoice INV-1049 (late by 11 days).",
+    "amount": 65000,
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-06",
+    "type": "agent_action",
+    "text": "Rs 65,000 credited for INV-1049. Closing follow-up.",
+    "invoice_id": "INV-1049"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-06",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1050 for Rs 132,000 sent to Joshi Foods.",
+    "amount": 132000,
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-11-06",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1028 for Rs 131,000 sent to Khan Fabrics.",
+    "amount": 131000,
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-06",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1010 for Rs 173,000 sent to Patel Textiles.",
+    "amount": 173000,
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-11-06",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Sethi Metals, Rs 40,000 for INV-1090 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1090"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-11-07",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1019 for Rs 80,000 sent to Mehta Hardware.",
+    "amount": 80000,
+    "invoice_id": "INV-1019"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-07",
+    "type": "payment_received",
+    "text": "Rs 148,000 received from Patel Textiles for invoice INV-1009 after phone follow-up.",
+    "amount": 148000,
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-07",
+    "type": "agent_action",
+    "text": "Payment of Rs 148,000 received against invoice INV-1009. Account updated.",
+    "invoice_id": "INV-1009"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-08",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1080 for Rs 36,000 sent to Banerjee Paper.",
+    "amount": 36000,
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-08",
+    "type": "payment_received",
+    "text": "Rs 161,000 received from Gupta Steels for invoice INV-1004 (late by 11 days).",
+    "amount": 161000,
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-08",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 161,000 (INV-1004). Sending thank-you note.",
+    "invoice_id": "INV-1004"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-11-08",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1069 for Rs 85,000 sent to Rao Electricals.",
+    "amount": 85000,
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-11-08",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1091 for Rs 171,000 sent to Sethi Metals.",
+    "amount": 171000,
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-11-08",
+    "type": "reminder_sent",
+    "text": "[call/firm] Verma Motors, invoice INV-1044 (Rs 112,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1044"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-11-09",
+    "type": "agent_action",
+    "text": "Buyer unresponsive. Escalating to senior collector.",
+    "invoice_id": "INV-1090"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-11-10",
+    "type": "reminder_sent",
+    "text": "[call/firm] Kulkarni Tools, invoice INV-1073 (Rs 77,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1073"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-11-10",
+    "type": "payment_received",
+    "text": "Rs 57,000 received from Rao Electricals for invoice INV-1068 (late by 11 days).",
+    "amount": 57000,
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-11-10",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 57,000 (INV-1068). Sending thank-you note.",
+    "invoice_id": "INV-1068"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-11-10",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1002 for Rs 149,000 sent to Sharma Traders.",
+    "amount": 149000,
+    "invoice_id": "INV-1002"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-11",
+    "type": "payment_received",
+    "text": "Rs 111,000 received from Banerjee Paper for invoice INV-1079 after phone follow-up.",
+    "amount": 111000,
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-11",
+    "type": "agent_action",
+    "text": "Payment of Rs 111,000 received against invoice INV-1079. Account updated.",
+    "invoice_id": "INV-1079"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-11-11",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1074 for Rs 47,000 sent to Kulkarni Tools.",
+    "amount": 47000,
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-11-12",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1035 for Rs 39,000 sent to Nair Chemicals.",
+    "amount": 39000,
+    "invoice_id": "INV-1035"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-11-12",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1014 for Rs 53,000 sent to Reddy Electronics.",
+    "amount": 53000,
+    "invoice_id": "INV-1014"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-11-13",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1040 for Rs 91,000 sent to Desai Plastics.",
+    "amount": 91000,
+    "invoice_id": "INV-1040"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2024-11-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1065 for Rs 45,000 sent to Bose Furniture.",
+    "amount": 45000,
+    "invoice_id": "INV-1065"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-14",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Bhai, invoice INV-1055 ka Rs 84,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-11-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1060 for Rs 77,000 sent to Malhotra Pharma.",
+    "amount": 77000,
+    "invoice_id": "INV-1060"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-11-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1045 for Rs 102,000 sent to Verma Motors.",
+    "amount": 102000,
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-11-15",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Verma Motors, Rs 112,000 for INV-1044 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1044"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-11-16",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Kulkarni Tools, Rs 77,000 for INV-1073 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1073"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-11-18",
+    "type": "agent_action",
+    "text": "Escalation note added. Will attempt visit if no response by 2024-11-25.",
+    "invoice_id": "INV-1044"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-19",
+    "type": "reminder_sent",
+    "text": "[call/firm] Invoice INV-1050 (Rs 132,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-20",
+    "type": "buyer_reply",
+    "text": "Sorry yaar, Friday tak pakka.",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-20",
+    "type": "promise",
+    "text": "I'll pay by 2024-11-23.",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-11-20",
+    "type": "agent_action",
+    "text": "Escalation note added. Will attempt visit if no response by 2024-11-27.",
+    "invoice_id": "INV-1073"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-21",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Chopra Garments, invoice INV-1055 (Rs 84,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-21",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Sir, ek chhota sa reminder — Rs 113,000 invoice INV-1005 ke liye. No rush, but please update.",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-11-21",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Sir, ek chhota sa reminder — Rs 41,000 invoice INV-1031 ke liye. No rush, but please update.",
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-11-22",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] This is a final reminder for invoice INV-1085. Amount Rs 162,000 is significantly overdue.",
+    "invoice_id": "INV-1085"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2024-11-23",
+    "type": "reminder_sent",
+    "text": "[call/firm] Invoice INV-1023 (Rs 107,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1023"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-11-23",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Bhai, invoice INV-1019 ka Rs 80,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1019"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-11-23",
+    "type": "buyer_reply",
+    "text": "Done, NEFT kar diya abhi.",
+    "invoice_id": "INV-1019"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-11-23",
+    "type": "promise",
+    "text": "2024-11-25 tak NEFT kar dunga.",
+    "invoice_id": "INV-1019"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-11-23",
+    "type": "buyer_reply",
+    "text": "Haan bhai, kal kar dunga payment.",
+    "invoice_id": "INV-1085"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-11-23",
+    "type": "promise",
+    "text": "2024-11-24 tak NEFT kar dunga.",
+    "invoice_id": "INV-1085"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-11-23",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Invoice INV-1091 (Rs 171,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-24",
+    "type": "buyer_reply",
+    "text": "Bhai, thoda time chahiye. 4-5 din mein kar dunga.",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-24",
+    "type": "promise",
+    "text": "I'll pay by 2024-11-28.",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-24",
+    "type": "agent_action",
+    "text": "Marked for follow-up call on 2024-11-24.",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-11-24",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] This is a final reminder for invoice INV-1010. Amount Rs 173,000 is significantly overdue.",
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-25",
+    "type": "agent_action",
+    "text": "Called Chopra Garments directly regarding invoice INV-1055.",
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-25",
+    "type": "buyer_reply",
+    "text": "Acha acha, call aaya toh yaad aaya. Kal kar deta hoon.",
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-25",
+    "type": "promise",
+    "text": "Promise — 2024-11-26 se pehle ho jayega.",
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-25",
+    "type": "reminder_sent",
+    "text": "[call/firm] Joshi Foods, aapne 2024-11-23 tak payment ka promise kiya tha. Invoice INV-1050 Rs 132,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-11-25",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Bhai, invoice INV-1028 ka Rs 131,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-11-25",
+    "type": "payment_received",
+    "text": "Rs 162,000 received from Pillai Spices for invoice INV-1085.",
+    "amount": 162000,
+    "invoice_id": "INV-1085"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-11-25",
+    "type": "agent_action",
+    "text": "Rs 162,000 credited for INV-1085. Closing follow-up.",
+    "invoice_id": "INV-1085"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-11-25",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Hello! Invoice INV-1002 ke Rs 149,000 ke baare mein poochhna tha. Kab tak ho jayega?",
+    "invoice_id": "INV-1002"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-11-25",
+    "type": "buyer_reply",
+    "text": "Done, NEFT kar diya abhi.",
+    "invoice_id": "INV-1002"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-11-25",
+    "type": "promise",
+    "text": "Next week pakka, by 2024-11-27.",
+    "invoice_id": "INV-1002"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-11-26",
+    "type": "buyer_reply",
+    "text": "Sorry bhai, thoda aur delay ho gaya.",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-11-26",
+    "type": "payment_received",
+    "text": "Rs 80,000 received from Mehta Hardware for invoice INV-1019.",
+    "amount": 80000,
+    "invoice_id": "INV-1019"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-11-26",
+    "type": "agent_action",
+    "text": "Rs 80,000 credited for INV-1019. Closing follow-up.",
+    "invoice_id": "INV-1019"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-11-26",
+    "type": "buyer_reply",
+    "text": "Haan bhai dekhta hoon...",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2024-11-27",
+    "type": "buyer_reply",
+    "text": "Ok.",
+    "invoice_id": "INV-1023"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2024-11-27",
+    "type": "reminder_sent",
+    "text": "[call/firm] Iyer Exports, invoice INV-1023 (Rs 107,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1023"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-11-27",
+    "type": "buyer_reply",
+    "text": "Account mein thoda issue tha, next week fix ho jayega.",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-11-27",
+    "type": "promise",
+    "text": "Next week pakka, by 2024-11-29.",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-11-27",
+    "type": "payment_received",
+    "text": "Rs 149,000 received from Sharma Traders for invoice INV-1002.",
+    "amount": 149000,
+    "invoice_id": "INV-1002"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-11-27",
+    "type": "agent_action",
+    "text": "Payment of Rs 149,000 received against invoice INV-1002. Account updated.",
+    "invoice_id": "INV-1002"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-11-28",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Bhai, invoice INV-1080 ka Rs 36,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-28",
+    "type": "payment_received",
+    "text": "Rs 84,000 received from Chopra Garments for invoice INV-1055 after phone follow-up.",
+    "amount": 84000,
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-11-28",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 84,000 (INV-1055). Sending thank-you note.",
+    "invoice_id": "INV-1055"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-11-28",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Sir, ek chhota sa reminder — Rs 47,000 invoice INV-1074 ke liye. No rush, but please update.",
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-11-28",
+    "type": "reminder_sent",
+    "text": "[call/firm] This is a final reminder for invoice INV-1035. Amount Rs 39,000 is significantly overdue.",
+    "invoice_id": "INV-1035"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-11-28",
+    "type": "buyer_reply",
+    "text": "Sure, processing today itself.",
+    "invoice_id": "INV-1035"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-11-28",
+    "type": "promise",
+    "text": "2024-11-28 tak kar dunga payment.",
+    "invoice_id": "INV-1035"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-11-28",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] This is a final reminder for invoice INV-1069. Amount Rs 85,000 is significantly overdue.",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-11-28",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Singh Agro, invoice INV-1031 (Rs 41,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-11-28",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sir, aapka payment Rs 102,000 (Inv INV-1045) overdue ho chuka hai. Urgent action required.",
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-29",
+    "type": "agent_action",
+    "text": "Marked for follow-up call on 2024-11-29.",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-11-29",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Hi! Just checking — invoice INV-1060 (Rs 77,000) ka kya status hai?",
+    "invoice_id": "INV-1060"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-11-29",
+    "type": "payment_received",
+    "text": "Rs 39,000 received from Nair Chemicals for invoice INV-1035.",
+    "amount": 39000,
+    "invoice_id": "INV-1035"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-11-29",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 39,000 (INV-1035). Sending thank-you note.",
+    "invoice_id": "INV-1035"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-11-30",
+    "type": "reminder_sent",
+    "text": "[call/firm] Gupta Steels, aapne 2024-11-28 tak payment ka promise kiya tha. Invoice INV-1005 Rs 113,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-11-30",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2024-11-30.",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-11-30",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1060"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-11-30",
+    "type": "promise",
+    "text": "Pakka 2024-12-02 tak. Trust me.",
+    "invoice_id": "INV-1060"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-11-30",
+    "type": "agent_action",
+    "text": "Called Singh Agro directly regarding invoice INV-1031.",
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-11-30",
+    "type": "buyer_reply",
+    "text": "Haan sir, call ke baad hi process karta hoon. Parson tak.",
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-11-30",
+    "type": "promise",
+    "text": "I'll pay by 2024-12-01.",
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-12-01",
+    "type": "buyer_reply",
+    "text": "Aaj NEFT karta hoon pakka.",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2024-12-01",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Iyer Exports, Rs 107,000 for INV-1023 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1023"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-12-01",
+    "type": "reminder_sent",
+    "text": "[call/firm] Khan Fabrics, aapne 2024-11-29 tak payment ka promise kiya tha. Invoice INV-1028 Rs 131,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-12-01",
+    "type": "buyer_reply",
+    "text": "Account issue tha, 2 din mein fix hoga.",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1075 for Rs 31,000 sent to Kulkarni Tools.",
+    "amount": 31000,
+    "invoice_id": "INV-1075"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-12-01",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Patel Textiles, invoice INV-1010 (Rs 173,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-01",
+    "type": "buyer_reply",
+    "text": "Account mein thoda issue tha, next week fix ho jayega.",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-01",
+    "type": "promise",
+    "text": "I'll pay by 2024-12-03.",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-01",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sir, aapka payment Rs 53,000 (Inv INV-1014) overdue ho chuka hai. Urgent action required.",
+    "invoice_id": "INV-1014"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-12-01",
+    "type": "payment_received",
+    "text": "Rs 41,000 received from Singh Agro for invoice INV-1031 after phone follow-up.",
+    "amount": 41000,
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-12-01",
+    "type": "agent_action",
+    "text": "Rs 41,000 credited for INV-1031. Closing follow-up.",
+    "invoice_id": "INV-1031"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2024-12-02",
+    "type": "reminder_sent",
+    "text": "[email/firm] Invoice INV-1065 (Rs 45,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1065"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-02",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Invoice INV-1040 (Rs 91,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1040"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-12-02",
+    "type": "payment_received",
+    "text": "Rs 132,000 received from Joshi Foods for invoice INV-1050 (late by 9 days).",
+    "amount": 132000,
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-12-02",
+    "type": "agent_action",
+    "text": "Payment of Rs 132,000 received against invoice INV-1050. Account updated.",
+    "invoice_id": "INV-1050"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-02",
+    "type": "buyer_reply",
+    "text": "Sir, 10 ke baad hi funds aate hain hamare. Tab kar dunga.",
+    "invoice_id": "INV-1014"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-02",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-12-14.",
+    "invoice_id": "INV-1014"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-02",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sethi Metals, invoice INV-1091 (Rs 171,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-03",
+    "type": "payment_received",
+    "text": "Rs 77,000 received from Malhotra Pharma for invoice INV-1060.",
+    "amount": 77000,
+    "invoice_id": "INV-1060"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-03",
+    "type": "agent_action",
+    "text": "Rs 77,000 credited for INV-1060. Closing follow-up.",
+    "invoice_id": "INV-1060"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-12-03",
+    "type": "agent_action",
+    "text": "Called Patel Textiles directly regarding invoice INV-1010.",
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-12-03",
+    "type": "buyer_reply",
+    "text": "Haan sir, call ke baad hi process karta hoon. Parson tak.",
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-12-03",
+    "type": "promise",
+    "text": "I'll pay by 2024-12-06.",
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1041 for Rs 27,000 sent to Desai Plastics.",
+    "amount": 27000,
+    "invoice_id": "INV-1041"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2024-12-04",
+    "type": "agent_action",
+    "text": "No response after 3 attempts. Flagged for escalation.",
+    "invoice_id": "INV-1023"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-04",
+    "type": "reminder_sent",
+    "text": "[call/firm] Kulkarni Tools, invoice INV-1074 (Rs 47,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1070 for Rs 97,000 sent to Rao Electricals.",
+    "amount": 97000,
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-05",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Banerjee Paper, invoice INV-1080 (Rs 36,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1081 for Rs 153,000 sent to Banerjee Paper.",
+    "amount": 153000,
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2024-12-05",
+    "type": "buyer_reply",
+    "text": "Bhai hamare payment cycle 10th ke baad hai. Thoda wait karo.",
+    "invoice_id": "INV-1065"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2024-12-05",
+    "type": "promise",
+    "text": "Pakka 2025-12-14 tak. Trust me.",
+    "invoice_id": "INV-1065"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-05",
+    "type": "buyer_reply",
+    "text": "Sir, 10 ke baad hi funds aate hain hamare. Tab kar dunga.",
+    "invoice_id": "INV-1040"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-05",
+    "type": "promise",
+    "text": "2025-12-13 tak kar dunga payment.",
+    "invoice_id": "INV-1040"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-05",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2024-12-05.",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-05",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2025-12-14.",
+    "invoice_id": "INV-1014"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2024-12-06",
+    "type": "agent_action",
+    "text": "Logged follow-up. Will check again on 2025-12-14.",
+    "invoice_id": "INV-1065"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-06",
+    "type": "agent_action",
+    "text": "Logged follow-up. Will check again on 2025-12-13.",
+    "invoice_id": "INV-1040"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-12-06",
+    "type": "payment_received",
+    "text": "Rs 173,000 received from Patel Textiles for invoice INV-1010 after phone follow-up.",
+    "amount": 173000,
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2024-12-06",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 173,000 (INV-1010). Sending thank-you note.",
+    "invoice_id": "INV-1010"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-07",
+    "type": "reminder_sent",
+    "text": "[call/firm] Rao Electricals, aapne 2024-12-03 tak payment ka promise kiya tha. Invoice INV-1069 Rs 85,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-12-07",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1003 for Rs 198,000 sent to Sharma Traders.",
+    "amount": 198000,
+    "invoice_id": "INV-1003"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-12-08",
+    "type": "payment_received",
+    "text": "Rs 113,000 received from Gupta Steels for invoice INV-1005 (late by 10 days).",
+    "amount": 113000,
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2024-12-08",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 113,000 (INV-1005). Sending thank-you note.",
+    "invoice_id": "INV-1005"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-08",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Kulkarni Tools, Rs 47,000 for INV-1074 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-08",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1061 for Rs 143,000 sent to Malhotra Pharma.",
+    "amount": 143000,
+    "invoice_id": "INV-1061"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-08",
+    "type": "buyer_reply",
+    "text": "Aaj NEFT karta hoon pakka.",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-08",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Sethi Metals, Rs 171,000 for INV-1091 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-09",
+    "type": "agent_action",
+    "text": "Called Banerjee Paper directly regarding invoice INV-1080.",
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-09",
+    "type": "buyer_reply",
+    "text": "Haan sir, call ke baad hi process karta hoon. Parson tak.",
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-09",
+    "type": "promise",
+    "text": "I'll pay by 2024-12-12.",
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-09",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1092 for Rs 117,000 sent to Sethi Metals.",
+    "amount": 117000,
+    "invoice_id": "INV-1092"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-12-09",
+    "type": "reminder_sent",
+    "text": "[call/firm] Verma Motors, invoice INV-1045 (Rs 102,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2024-12-10",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1066 for Rs 106,000 sent to Bose Furniture.",
+    "amount": 106000,
+    "invoice_id": "INV-1066"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-12-10",
+    "type": "payment_received",
+    "text": "Rs 131,000 received from Khan Fabrics for invoice INV-1028 (late by 11 days).",
+    "amount": 131000,
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2024-12-10",
+    "type": "agent_action",
+    "text": "Payment of Rs 131,000 received against invoice INV-1028. Account updated.",
+    "invoice_id": "INV-1028"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-12-10",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1086 for Rs 46,000 sent to Pillai Spices.",
+    "amount": 46000,
+    "invoice_id": "INV-1086"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-12-11",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1020 for Rs 72,000 sent to Mehta Hardware.",
+    "amount": 72000,
+    "invoice_id": "INV-1020"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-11",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1015 for Rs 33,000 sent to Reddy Electronics.",
+    "amount": 33000,
+    "invoice_id": "INV-1015"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-11",
+    "type": "agent_action",
+    "text": "Buyer has gone silent. Marking account as at-risk.",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2024-12-12",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1024 for Rs 61,000 sent to Iyer Exports.",
+    "amount": 61000,
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-12",
+    "type": "agent_action",
+    "text": "Escalation note added. Will attempt visit if no response by 2024-12-19.",
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-12-12",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1036 for Rs 59,000 sent to Nair Chemicals.",
+    "amount": 59000,
+    "invoice_id": "INV-1036"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2024-12-13",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1051 for Rs 162,000 sent to Joshi Foods.",
+    "amount": 162000,
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-13",
+    "type": "payment_received",
+    "text": "Rs 85,000 received from Rao Electricals for invoice INV-1069 (late by 10 days).",
+    "amount": 85000,
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-13",
+    "type": "agent_action",
+    "text": "Rs 85,000 credited for INV-1069. Closing follow-up.",
+    "invoice_id": "INV-1069"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-14",
+    "type": "payment_received",
+    "text": "Rs 36,000 received from Banerjee Paper for invoice INV-1080 after phone follow-up.",
+    "amount": 36000,
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-14",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 36,000 (INV-1080). Sending thank-you note.",
+    "invoice_id": "INV-1080"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-12-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1032 for Rs 176,000 sent to Singh Agro.",
+    "amount": 176000,
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-12-15",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1056 for Rs 133,000 sent to Chopra Garments.",
+    "amount": 133000,
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-12-15",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Verma Motors, Rs 102,000 for INV-1045 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-12-17",
+    "type": "agent_action",
+    "text": "Escalation note added. Will attempt visit if no response by 2024-12-23.",
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-18",
+    "type": "reminder_sent",
+    "text": "[email/polite] Sir, invoice INV-1041 ka payment pending hai — Rs 27,000. Request you to kindly clear it.",
+    "invoice_id": "INV-1041"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-19",
+    "type": "buyer_reply",
+    "text": "Collection humara bhi 10th ke baad aata hai. Tab process karunga.",
+    "invoice_id": "INV-1041"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-19",
+    "type": "promise",
+    "text": "2025-01-11 tak NEFT kar dunga.",
+    "invoice_id": "INV-1041"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-19",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Sir, invoice INV-1075 ka payment pending hai — Rs 31,000. Request you to kindly clear it.",
+    "invoice_id": "INV-1075"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2024-12-22",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2025-01-11.",
+    "invoice_id": "INV-1041"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-23",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Sir, ek chhota sa reminder — Rs 33,000 invoice INV-1015 ke liye. No rush, but please update.",
+    "invoice_id": "INV-1015"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-24",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Namaskar, invoice INV-1070 ka Rs 97,000 abhi tak receive nahi hua. Kindly update.",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-24",
+    "type": "buyer_reply",
+    "text": "Bhai hamare payment cycle 10th ke baad hai. Thoda wait karo.",
+    "invoice_id": "INV-1015"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-24",
+    "type": "promise",
+    "text": "2025-01-12 tak kar dunga payment.",
+    "invoice_id": "INV-1015"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-25",
+    "type": "reminder_sent",
+    "text": "[call/firm] Kulkarni Tools, invoice INV-1075 (Rs 31,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1075"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-25",
+    "type": "reminder_sent",
+    "text": "[email/polite] Namaskar, invoice INV-1061 ka Rs 143,000 abhi tak receive nahi hua. Kindly update.",
+    "invoice_id": "INV-1061"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-25",
+    "type": "buyer_reply",
+    "text": "Yes, will clear by tomorrow EOD.",
+    "invoice_id": "INV-1061"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-25",
+    "type": "promise",
+    "text": "Pakka 2024-12-27 tak. Trust me.",
+    "invoice_id": "INV-1061"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-12-25",
+    "type": "reminder_sent",
+    "text": "[email/firm] Sir, aapka payment Rs 46,000 (Inv INV-1086) overdue ho chuka hai. Urgent action required.",
+    "invoice_id": "INV-1086"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-12-25",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1086"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-12-25",
+    "type": "promise",
+    "text": "Next week pakka, by 2024-12-27.",
+    "invoice_id": "INV-1086"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-12-25",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi, this is a friendly reminder for invoice INV-1003 (Rs 198,000). Please let us know the expected date.",
+    "invoice_id": "INV-1003"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-12-25",
+    "type": "buyer_reply",
+    "text": "Haan bhai, kal kar dunga payment.",
+    "invoice_id": "INV-1003"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-12-25",
+    "type": "promise",
+    "text": "I'll pay by 2024-12-26.",
+    "invoice_id": "INV-1003"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-12-26",
+    "type": "reminder_sent",
+    "text": "[call/firm] This is a final reminder for invoice INV-1036. Amount Rs 59,000 is significantly overdue.",
+    "invoice_id": "INV-1036"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-27",
+    "type": "payment_received",
+    "text": "Rs 143,000 received from Malhotra Pharma for invoice INV-1061.",
+    "amount": 143000,
+    "invoice_id": "INV-1061"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2024-12-27",
+    "type": "agent_action",
+    "text": "Payment of Rs 143,000 received against invoice INV-1061. Account updated.",
+    "invoice_id": "INV-1061"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-12-27",
+    "type": "buyer_reply",
+    "text": "Done, NEFT kar diya abhi.",
+    "invoice_id": "INV-1036"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-12-27",
+    "type": "promise",
+    "text": "2024-12-27 tak kar dunga payment.",
+    "invoice_id": "INV-1036"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-12-27",
+    "type": "payment_received",
+    "text": "Rs 46,000 received from Pillai Spices for invoice INV-1086.",
+    "amount": 46000,
+    "invoice_id": "INV-1086"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2024-12-27",
+    "type": "agent_action",
+    "text": "Rs 46,000 credited for INV-1086. Closing follow-up.",
+    "invoice_id": "INV-1086"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-27",
+    "type": "buyer_reply",
+    "text": "Thoda delay ho gaya, 2-3 din mein kar deta hoon.",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2024-12-27",
+    "type": "promise",
+    "text": "Next week pakka, by 2024-12-31.",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-27",
+    "type": "buyer_reply",
+    "text": "Sir, sorry for delay. Payment kar raha hoon aaj.",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-27",
+    "type": "payment_received",
+    "text": "Rs 171,000 received from Sethi Metals for invoice INV-1091 (severely late).",
+    "amount": 171000,
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-27",
+    "type": "agent_action",
+    "text": "Payment of Rs 171,000 received against invoice INV-1091. Account updated.",
+    "invoice_id": "INV-1091"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-27",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Sir, ek chhota sa reminder — Rs 117,000 invoice INV-1092 ke liye. No rush, but please update.",
+    "invoice_id": "INV-1092"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-12-27",
+    "type": "payment_received",
+    "text": "Rs 198,000 received from Sharma Traders for invoice INV-1003.",
+    "amount": 198000,
+    "invoice_id": "INV-1003"
+  },
+  {
+    "buyer": "Sharma Traders",
+    "date": "2024-12-27",
+    "type": "agent_action",
+    "text": "Rs 198,000 credited for INV-1003. Closing follow-up.",
+    "invoice_id": "INV-1003"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2024-12-28",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Namaskar, invoice INV-1081 ka Rs 153,000 abhi tak receive nahi hua. Kindly update.",
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-28",
+    "type": "buyer_reply",
+    "text": "Sir, sorry for delay. Payment kar raha hoon aaj.",
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-28",
+    "type": "payment_received",
+    "text": "Rs 47,000 received from Kulkarni Tools for invoice INV-1074 (severely late).",
+    "amount": 47000,
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2024-12-28",
+    "type": "agent_action",
+    "text": "Payment of Rs 47,000 received against invoice INV-1074. Account updated.",
+    "invoice_id": "INV-1074"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-12-28",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sir, aapka payment Rs 72,000 (Inv INV-1020) overdue ho chuka hai. Urgent action required.",
+    "invoice_id": "INV-1020"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-12-28",
+    "type": "payment_received",
+    "text": "Rs 59,000 received from Nair Chemicals for invoice INV-1036.",
+    "amount": 59000,
+    "invoice_id": "INV-1036"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2024-12-28",
+    "type": "agent_action",
+    "text": "Rs 59,000 credited for INV-1036. Closing follow-up.",
+    "invoice_id": "INV-1036"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-28",
+    "type": "buyer_reply",
+    "text": "Ok.",
+    "invoice_id": "INV-1092"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-12-29",
+    "type": "buyer_reply",
+    "text": "Done, NEFT kar diya abhi.",
+    "invoice_id": "INV-1020"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-12-29",
+    "type": "promise",
+    "text": "I'll pay by 2024-12-30.",
+    "invoice_id": "INV-1020"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2024-12-29",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2025-01-12.",
+    "invoice_id": "INV-1015"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2024-12-29",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Hi! Just checking — invoice INV-1032 (Rs 176,000) ka kya status hai?",
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-12-30",
+    "type": "payment_received",
+    "text": "Rs 72,000 received from Mehta Hardware for invoice INV-1020.",
+    "amount": 72000,
+    "invoice_id": "INV-1020"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2024-12-30",
+    "type": "agent_action",
+    "text": "Rs 72,000 credited for INV-1020. Closing follow-up.",
+    "invoice_id": "INV-1020"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-12-30",
+    "type": "buyer_reply",
+    "text": "Bahut problem thi. Aaj NEFT kar diya.",
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-12-30",
+    "type": "payment_received",
+    "text": "Rs 102,000 received from Verma Motors for invoice INV-1045 (severely late).",
+    "amount": 102000,
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2024-12-30",
+    "type": "agent_action",
+    "text": "Rs 102,000 credited for INV-1045. Closing follow-up.",
+    "invoice_id": "INV-1045"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2024-12-31",
+    "type": "reminder_sent",
+    "text": "[email/firm] We have not received Rs 133,000 against invoice INV-1056. Please treat this as urgent.",
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2024-12-31",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sethi Metals, invoice INV-1092 (Rs 117,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1092"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-01",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Banerjee Paper, invoice INV-1081 (Rs 153,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-01-01",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] We have not received Rs 106,000 against invoice INV-1066. Please treat this as urgent.",
+    "invoice_id": "INV-1066"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-01-01",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Kulkarni Tools, Rs 31,000 for INV-1075 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1075"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-01-02",
+    "type": "agent_action",
+    "text": "Logged follow-up. Will check again on 2025-01-15.",
+    "invoice_id": "INV-1066"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-02",
+    "type": "agent_action",
+    "text": "Logged follow-up. Will check again on 2025-01-02.",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-01-03",
+    "type": "buyer_reply",
+    "text": "Collection humara bhi 10th ke baad aata hai. Tab process karunga.",
+    "invoice_id": "INV-1066"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-01-03",
+    "type": "promise",
+    "text": "I'll pay by 2025-01-15.",
+    "invoice_id": "INV-1066"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-01-03",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1042 for Rs 114,000 sent to Desai Plastics.",
+    "amount": 114000,
+    "invoice_id": "INV-1042"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-03",
+    "type": "reminder_sent",
+    "text": "[email/firm] Invoice INV-1024 (Rs 61,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-03",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Hi! Just checking — invoice INV-1051 (Rs 162,000) ka kya status hai?",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-04",
+    "type": "agent_action",
+    "text": "Called Banerjee Paper directly regarding invoice INV-1081.",
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-04",
+    "type": "buyer_reply",
+    "text": "Acha acha, call aaya toh yaad aaya. Kal kar deta hoon.",
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-04",
+    "type": "promise",
+    "text": "Pakka 2025-01-06 tak. Trust me.",
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-01-04",
+    "type": "agent_action",
+    "text": "Buyer has gone silent. Marking account as at-risk.",
+    "invoice_id": "INV-1075"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-01-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1087 for Rs 166,000 sent to Pillai Spices.",
+    "amount": 166000,
+    "invoice_id": "INV-1087"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-04",
+    "type": "reminder_sent",
+    "text": "[call/firm] Rao Electricals, aapne 2024-12-31 tak payment ka promise kiya tha. Invoice INV-1070 Rs 97,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-04",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Singh Agro, invoice INV-1032 (Rs 176,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-05",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Chopra Garments, invoice INV-1056 (Rs 133,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-05",
+    "type": "buyer_reply",
+    "text": "Will check.",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-05",
+    "type": "buyer_reply",
+    "text": "Account issue tha, 2 din mein fix hoga.",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-01-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1016 for Rs 66,000 sent to Reddy Electronics.",
+    "amount": 66000,
+    "invoice_id": "INV-1016"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-01-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1046 for Rs 107,000 sent to Verma Motors.",
+    "amount": 107000,
+    "invoice_id": "INV-1046"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-06",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1082 for Rs 40,000 sent to Banerjee Paper.",
+    "amount": 40000,
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-06",
+    "type": "buyer_reply",
+    "text": "Sorry yaar, Friday tak pakka.",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-06",
+    "type": "promise",
+    "text": "Promise — 2025-01-09 se pehle ho jayega.",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-07",
+    "type": "payment_received",
+    "text": "Rs 153,000 received from Banerjee Paper for invoice INV-1081 after phone follow-up.",
+    "amount": 153000,
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-07",
+    "type": "agent_action",
+    "text": "Payment of Rs 153,000 received against invoice INV-1081. Account updated.",
+    "invoice_id": "INV-1081"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-07",
+    "type": "reminder_sent",
+    "text": "[call/firm] Iyer Exports, invoice INV-1024 (Rs 61,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2025-01-07",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Sethi Metals, Rs 117,000 for INV-1092 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1092"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-07",
+    "type": "agent_action",
+    "text": "Called Singh Agro directly regarding invoice INV-1032.",
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-07",
+    "type": "buyer_reply",
+    "text": "Thanks for calling, warna bhool hi jaata. Tomorrow pakka.",
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-07",
+    "type": "promise",
+    "text": "2025-01-08 tak kar dunga payment.",
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-08",
+    "type": "agent_action",
+    "text": "Called Chopra Garments directly regarding invoice INV-1056.",
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-08",
+    "type": "buyer_reply",
+    "text": "Oh haan, bhool gaya tha. Abhi karta hoon.",
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-08",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-01-10.",
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-08",
+    "type": "payment_received",
+    "text": "Rs 97,000 received from Rao Electricals for invoice INV-1070 (late by 8 days).",
+    "amount": 97000,
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-08",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 97,000 (INV-1070). Sending thank-you note.",
+    "invoice_id": "INV-1070"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-01-09",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1006 for Rs 196,000 sent to Gupta Steels.",
+    "amount": 196000,
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-01-09",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1076 for Rs 198,000 sent to Kulkarni Tools.",
+    "amount": 198000,
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2025-01-09",
+    "type": "agent_action",
+    "text": "Buyer has gone silent. Marking account as at-risk.",
+    "invoice_id": "INV-1092"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-10",
+    "type": "payment_received",
+    "text": "Rs 176,000 received from Singh Agro for invoice INV-1032 after phone follow-up.",
+    "amount": 176000,
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-10",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 176,000 (INV-1032). Sending thank-you note.",
+    "invoice_id": "INV-1032"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-11",
+    "type": "payment_received",
+    "text": "Rs 133,000 received from Chopra Garments for invoice INV-1056 after phone follow-up.",
+    "amount": 133000,
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-11",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 133,000 (INV-1056). Sending thank-you note.",
+    "invoice_id": "INV-1056"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-11",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2025-01-11.",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-01-12",
+    "type": "payment_received",
+    "text": "Rs 106,000 received from Bose Furniture for invoice INV-1066 (post-10th cycle).",
+    "amount": 106000,
+    "invoice_id": "INV-1066"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-01-12",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 106,000 (INV-1066). Sending thank-you note.",
+    "invoice_id": "INV-1066"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-12",
+    "type": "reminder_sent",
+    "text": "[call/firm] Joshi Foods, aapne 2025-01-09 tak payment ka promise kiya tha. Invoice INV-1051 Rs 162,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-12",
+    "type": "buyer_reply",
+    "text": "Sorry bhai, thoda aur delay ho gaya.",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-01-12",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1037 for Rs 169,000 sent to Nair Chemicals.",
+    "amount": 169000,
+    "invoice_id": "INV-1037"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-01-12",
+    "type": "payment_received",
+    "text": "Rs 33,000 received from Reddy Electronics for invoice INV-1015 (post-10th cycle).",
+    "amount": 33000,
+    "invoice_id": "INV-1015"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-01-12",
+    "type": "agent_action",
+    "text": "Rs 33,000 credited for INV-1015. Closing follow-up.",
+    "invoice_id": "INV-1015"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-13",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Iyer Exports, Rs 61,000 for INV-1024 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-01-13",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1062 for Rs 90,000 sent to Malhotra Pharma.",
+    "amount": 90000,
+    "invoice_id": "INV-1062"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-13",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1071 for Rs 195,000 sent to Rao Electricals.",
+    "amount": 195000,
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1057 for Rs 46,000 sent to Chopra Garments.",
+    "amount": 46000,
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-01-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1011 for Rs 144,000 sent to Patel Textiles.",
+    "amount": 144000,
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-01-15",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1029 for Rs 190,000 sent to Khan Fabrics.",
+    "amount": 190000,
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-15",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1033 for Rs 21,000 sent to Singh Agro.",
+    "amount": 21000,
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-01-16",
+    "type": "payment_received",
+    "text": "Rs 27,000 received from Desai Plastics for invoice INV-1041 (post-10th cycle).",
+    "amount": 27000,
+    "invoice_id": "INV-1041"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-01-16",
+    "type": "agent_action",
+    "text": "Rs 27,000 credited for INV-1041. Closing follow-up.",
+    "invoice_id": "INV-1041"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-01-16",
+    "type": "reminder_sent",
+    "text": "[call/polite] Gentle reminder: Invoice INV-1042 of Rs 114,000 is due. Kindly process at the earliest.",
+    "invoice_id": "INV-1042"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-17",
+    "type": "agent_action",
+    "text": "No response after 3 attempts. Flagged for escalation.",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-01-18",
+    "type": "buyer_reply",
+    "text": "Collection humara bhi 10th ke baad aata hai. Tab process karunga.",
+    "invoice_id": "INV-1042"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-01-18",
+    "type": "promise",
+    "text": "Pakka 2025-02-14 tak. Trust me.",
+    "invoice_id": "INV-1042"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-18",
+    "type": "payment_received",
+    "text": "Rs 162,000 received from Joshi Foods for invoice INV-1051 (late by 9 days).",
+    "amount": 162000,
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-01-18",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 162,000 (INV-1051). Sending thank-you note.",
+    "invoice_id": "INV-1051"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-19",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] This is a final reminder for invoice INV-1082. Amount Rs 40,000 is significantly overdue.",
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-01-19",
+    "type": "agent_action",
+    "text": "Logged follow-up. Will check again on 2025-02-14.",
+    "invoice_id": "INV-1042"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-01-24",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Invoice INV-1016 (Rs 66,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1016"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-01-24",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Hi! Just checking — invoice INV-1046 (Rs 107,000) ka kya status hai?",
+    "invoice_id": "INV-1046"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-01-25",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Bhai, invoice INV-1087 ka Rs 166,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1087"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-01-25",
+    "type": "buyer_reply",
+    "text": "Sir, 10 ke baad hi funds aate hain hamare. Tab kar dunga.",
+    "invoice_id": "INV-1016"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-01-25",
+    "type": "promise",
+    "text": "2025-02-11 tak kar dunga payment.",
+    "invoice_id": "INV-1016"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-01-26",
+    "type": "buyer_reply",
+    "text": "Haan bhai, kal kar dunga payment.",
+    "invoice_id": "INV-1087"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-01-26",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-01-26.",
+    "invoice_id": "INV-1087"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-01-27",
+    "type": "reminder_sent",
+    "text": "[call/firm] Invoice INV-1037 (Rs 169,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1037"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-01-27",
+    "type": "payment_received",
+    "text": "Rs 166,000 received from Pillai Spices for invoice INV-1087.",
+    "amount": 166000,
+    "invoice_id": "INV-1087"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-01-27",
+    "type": "agent_action",
+    "text": "Rs 166,000 credited for INV-1087. Closing follow-up.",
+    "invoice_id": "INV-1087"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-01-27",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2025-02-11.",
+    "invoice_id": "INV-1016"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-01-28",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Banerjee Paper, invoice INV-1082 (Rs 40,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-01-28",
+    "type": "reminder_sent",
+    "text": "[call/polite] Sir, invoice INV-1006 ka payment pending hai — Rs 196,000. Request you to kindly clear it.",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-01-28",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1037"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-01-28",
+    "type": "promise",
+    "text": "Promise — 2025-01-29 se pehle ho jayega.",
+    "invoice_id": "INV-1037"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-28",
+    "type": "reminder_sent",
+    "text": "[email/firm] This is a final reminder for invoice INV-1071. Amount Rs 195,000 is significantly overdue.",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-01-28",
+    "type": "buyer_reply",
+    "text": "Ok.",
+    "invoice_id": "INV-1046"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-01-29",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Hello! Invoice INV-1057 ke Rs 46,000 ke baare mein poochhna tha. Kab tak ho jayega?",
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-01-29",
+    "type": "buyer_reply",
+    "text": "Thoda delay ho gaya, 2-3 din mein kar deta hoon.",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-01-29",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-02-01.",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-01-29",
+    "type": "payment_received",
+    "text": "Rs 169,000 received from Nair Chemicals for invoice INV-1037.",
+    "amount": 169000,
+    "invoice_id": "INV-1037"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-01-29",
+    "type": "agent_action",
+    "text": "Rs 169,000 credited for INV-1037. Closing follow-up.",
+    "invoice_id": "INV-1037"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-29",
+    "type": "buyer_reply",
+    "text": "Account mein thoda issue tha, next week fix ho jayega.",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-01-29",
+    "type": "promise",
+    "text": "2025-02-01 tak kar dunga payment.",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-01-29",
+    "type": "reminder_sent",
+    "text": "[call/firm] Verma Motors, invoice INV-1046 (Rs 107,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1046"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-01-30",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Hi! Just checking — invoice INV-1076 (Rs 198,000) ka kya status hai?",
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-01-30",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Namaskar, invoice INV-1011 ka Rs 144,000 abhi tak receive nahi hua. Kindly update.",
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-01-30",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Namaskar, invoice INV-1033 ka Rs 21,000 abhi tak receive nahi hua. Kindly update.",
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-31",
+    "type": "buyer_reply",
+    "text": "Bahut problem thi. Aaj NEFT kar diya.",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-31",
+    "type": "payment_received",
+    "text": "Rs 61,000 received from Iyer Exports for invoice INV-1024 (severely late).",
+    "amount": 61000,
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-01-31",
+    "type": "agent_action",
+    "text": "Payment of Rs 61,000 received against invoice INV-1024. Account updated.",
+    "invoice_id": "INV-1024"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-02-01",
+    "type": "agent_action",
+    "text": "Called Banerjee Paper directly regarding invoice INV-1082.",
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-02-01",
+    "type": "buyer_reply",
+    "text": "Oh haan, bhool gaya tha. Abhi karta hoon.",
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-02-01",
+    "type": "promise",
+    "text": "2025-02-03 tak NEFT kar dunga.",
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-02-01",
+    "type": "reminder_sent",
+    "text": "[email/firm] Invoice INV-1062 (Rs 90,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1062"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-02-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1088 for Rs 109,000 sent to Pillai Spices.",
+    "amount": 109000,
+    "invoice_id": "INV-1088"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1072 for Rs 132,000 sent to Rao Electricals.",
+    "amount": 132000,
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-02",
+    "type": "agent_action",
+    "text": "Marked for follow-up call on 2025-02-02.",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-02-02",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1062"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-02-02",
+    "type": "promise",
+    "text": "2025-02-04 tak NEFT kar dunga.",
+    "invoice_id": "INV-1062"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-02-02",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Patel Textiles, invoice INV-1011 (Rs 144,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-02",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2025-02-02.",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-02",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Singh Agro, invoice INV-1033 (Rs 21,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-02-03",
+    "type": "reminder_sent",
+    "text": "[call/firm] Kulkarni Tools, invoice INV-1076 (Rs 198,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-02-04",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Chopra Garments, invoice INV-1057 (Rs 46,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-02-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1043 for Rs 180,000 sent to Desai Plastics.",
+    "amount": 180000,
+    "invoice_id": "INV-1043"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-02-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1025 for Rs 111,000 sent to Iyer Exports.",
+    "amount": 111000,
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-04",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Bhai, invoice INV-1029 ka Rs 190,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-02-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1077 for Rs 133,000 sent to Kulkarni Tools.",
+    "amount": 133000,
+    "invoice_id": "INV-1077"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-02-05",
+    "type": "payment_received",
+    "text": "Rs 40,000 received from Banerjee Paper for invoice INV-1082 after phone follow-up.",
+    "amount": 40000,
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-02-05",
+    "type": "agent_action",
+    "text": "Rs 40,000 credited for INV-1082. Closing follow-up.",
+    "invoice_id": "INV-1082"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-05",
+    "type": "reminder_sent",
+    "text": "[call/firm] Gupta Steels, aapne 2025-02-01 tak payment ka promise kiya tha. Invoice INV-1006 Rs 196,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-02-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1052 for Rs 74,000 sent to Joshi Foods.",
+    "amount": 74000,
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-02-05",
+    "type": "payment_received",
+    "text": "Rs 90,000 received from Malhotra Pharma for invoice INV-1062.",
+    "amount": 90000,
+    "invoice_id": "INV-1062"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-02-05",
+    "type": "agent_action",
+    "text": "Payment of Rs 90,000 received against invoice INV-1062. Account updated.",
+    "invoice_id": "INV-1062"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-02-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1038 for Rs 76,000 sent to Nair Chemicals.",
+    "amount": 76000,
+    "invoice_id": "INV-1038"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-02-05",
+    "type": "agent_action",
+    "text": "Called Patel Textiles directly regarding invoice INV-1011.",
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-02-05",
+    "type": "buyer_reply",
+    "text": "Thanks for calling, warna bhool hi jaata. Tomorrow pakka.",
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-02-05",
+    "type": "promise",
+    "text": "2025-02-06 tak NEFT kar dunga.",
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-05",
+    "type": "reminder_sent",
+    "text": "[call/firm] Rao Electricals, aapne 2025-02-01 tak payment ka promise kiya tha. Invoice INV-1071 Rs 195,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-05",
+    "type": "buyer_reply",
+    "text": "Sorry bhai, thoda aur delay ho gaya.",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-02-05",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Verma Motors, Rs 107,000 for INV-1046 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1046"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-02-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1047 for Rs 43,000 sent to Verma Motors.",
+    "amount": 43000,
+    "invoice_id": "INV-1047"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-06",
+    "type": "buyer_reply",
+    "text": "Haan yaar, kal pakka this time.",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-06",
+    "type": "agent_action",
+    "text": "Called Singh Agro directly regarding invoice INV-1033.",
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-06",
+    "type": "buyer_reply",
+    "text": "Haan sir, call ke baad hi process karta hoon. Parson tak.",
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-06",
+    "type": "promise",
+    "text": "Promise — 2025-02-07 se pehle ho jayega.",
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-07",
+    "type": "buyer_reply",
+    "text": "Thoda delay ho gaya, 2-3 din mein kar deta hoon.",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-07",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-02-11.",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-07",
+    "type": "payment_received",
+    "text": "Rs 21,000 received from Singh Agro for invoice INV-1033 after phone follow-up.",
+    "amount": 21000,
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-07",
+    "type": "agent_action",
+    "text": "Rs 21,000 credited for INV-1033. Closing follow-up.",
+    "invoice_id": "INV-1033"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-02-08",
+    "type": "agent_action",
+    "text": "Called Chopra Garments directly regarding invoice INV-1057.",
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-02-08",
+    "type": "buyer_reply",
+    "text": "Thanks for calling, warna bhool hi jaata. Tomorrow pakka.",
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-02-08",
+    "type": "promise",
+    "text": "I'll pay by 2025-02-11.",
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-08",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1007 for Rs 184,000 sent to Gupta Steels.",
+    "amount": 184000,
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-02-08",
+    "type": "payment_received",
+    "text": "Rs 144,000 received from Patel Textiles for invoice INV-1011 after phone follow-up.",
+    "amount": 144000,
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-02-08",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 144,000 (INV-1011). Sending thank-you note.",
+    "invoice_id": "INV-1011"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-02-09",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1063 for Rs 134,000 sent to Malhotra Pharma.",
+    "amount": 134000,
+    "invoice_id": "INV-1063"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-09",
+    "type": "payment_received",
+    "text": "Rs 195,000 received from Rao Electricals for invoice INV-1071 (late by 8 days).",
+    "amount": 195000,
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-09",
+    "type": "agent_action",
+    "text": "Rs 195,000 credited for INV-1071. Closing follow-up.",
+    "invoice_id": "INV-1071"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-09",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1034 for Rs 190,000 sent to Singh Agro.",
+    "amount": 190000,
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-02-09",
+    "type": "agent_action",
+    "text": "Escalation note added. Will attempt visit if no response by 2025-02-15.",
+    "invoice_id": "INV-1046"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-02-10",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Kulkarni Tools, Rs 198,000 for INV-1076 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-02-10",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1021 for Rs 179,000 sent to Mehta Hardware.",
+    "amount": 179000,
+    "invoice_id": "INV-1021"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-02-12",
+    "type": "payment_received",
+    "text": "Rs 46,000 received from Chopra Garments for invoice INV-1057 after phone follow-up.",
+    "amount": 46000,
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-02-12",
+    "type": "agent_action",
+    "text": "Payment of Rs 46,000 received against invoice INV-1057. Account updated.",
+    "invoice_id": "INV-1057"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-12",
+    "type": "payment_received",
+    "text": "Rs 196,000 received from Gupta Steels for invoice INV-1006 (late by 11 days).",
+    "amount": 196000,
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-12",
+    "type": "agent_action",
+    "text": "Rs 196,000 credited for INV-1006. Closing follow-up.",
+    "invoice_id": "INV-1006"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-02-12",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1012 for Rs 71,000 sent to Patel Textiles.",
+    "amount": 71000,
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2025-02-12",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1093 for Rs 123,000 sent to Sethi Metals.",
+    "amount": 123000,
+    "invoice_id": "INV-1093"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-02-13",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1083 for Rs 45,000 sent to Banerjee Paper.",
+    "amount": 45000,
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-13",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2025-02-13.",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-14",
+    "type": "reminder_sent",
+    "text": "[call/firm] Khan Fabrics, aapne 2025-02-11 tak payment ka promise kiya tha. Invoice INV-1029 Rs 190,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-02-14",
+    "type": "agent_action",
+    "text": "Escalation note added. Will attempt visit if no response by 2025-02-20.",
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-02-14",
+    "type": "payment_received",
+    "text": "Rs 66,000 received from Reddy Electronics for invoice INV-1016 (post-10th cycle).",
+    "amount": 66000,
+    "invoice_id": "INV-1016"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-02-14",
+    "type": "agent_action",
+    "text": "Rs 66,000 credited for INV-1016. Closing follow-up.",
+    "invoice_id": "INV-1016"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-02-15",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1067 for Rs 195,000 sent to Bose Furniture.",
+    "amount": 195000,
+    "invoice_id": "INV-1067"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-02-15",
+    "type": "payment_received",
+    "text": "Rs 114,000 received from Desai Plastics for invoice INV-1042 (post-10th cycle).",
+    "amount": 114000,
+    "invoice_id": "INV-1042"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-02-15",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 114,000 (INV-1042). Sending thank-you note.",
+    "invoice_id": "INV-1042"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-15",
+    "type": "buyer_reply",
+    "text": "Haan yaar, kal pakka this time.",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-02-15",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Hello! Invoice INV-1088 ke Rs 109,000 ke baare mein poochhna tha. Kab tak ho jayega?",
+    "invoice_id": "INV-1088"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-02-15",
+    "type": "buyer_reply",
+    "text": "Sure, processing today itself.",
+    "invoice_id": "INV-1088"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-02-15",
+    "type": "promise",
+    "text": "Pakka 2025-02-17 tak. Trust me.",
+    "invoice_id": "INV-1088"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-02-17",
+    "type": "payment_received",
+    "text": "Rs 109,000 received from Pillai Spices for invoice INV-1088.",
+    "amount": 109000,
+    "invoice_id": "INV-1088"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-02-17",
+    "type": "agent_action",
+    "text": "Payment of Rs 109,000 received against invoice INV-1088. Account updated.",
+    "invoice_id": "INV-1088"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-02-18",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Gentle reminder: Invoice INV-1052 of Rs 74,000 is due. Kindly process at the earliest.",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-02-19",
+    "type": "buyer_reply",
+    "text": "Sir, payment kal tak kar dunga.",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-02-19",
+    "type": "promise",
+    "text": "Promise — 2025-02-22 se pehle ho jayega.",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-20",
+    "type": "payment_received",
+    "text": "Rs 190,000 received from Khan Fabrics for invoice INV-1029 (late by 9 days).",
+    "amount": 190000,
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-02-20",
+    "type": "agent_action",
+    "text": "Rs 190,000 credited for INV-1029. Closing follow-up.",
+    "invoice_id": "INV-1029"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-02-20",
+    "type": "reminder_sent",
+    "text": "[email/firm] This is a final reminder for invoice INV-1077. Amount Rs 133,000 is significantly overdue.",
+    "invoice_id": "INV-1077"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-02-21",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Bhai, invoice INV-1043 ka Rs 180,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1043"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-02-21",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2025-03-13.",
+    "invoice_id": "INV-1043"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-02-22",
+    "type": "reminder_sent",
+    "text": "[email/polite] Hi, this is a friendly reminder for invoice INV-1021 (Rs 179,000). Please let us know the expected date.",
+    "invoice_id": "INV-1021"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-02-22",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1021"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-02-22",
+    "type": "promise",
+    "text": "2025-02-22 tak kar dunga payment.",
+    "invoice_id": "INV-1021"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-22",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi, this is a friendly reminder for invoice INV-1072 (Rs 132,000). Please let us know the expected date.",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-02-22",
+    "type": "reminder_sent",
+    "text": "[email/polite] Hi, this is a friendly reminder for invoice INV-1047 (Rs 43,000). Please let us know the expected date.",
+    "invoice_id": "INV-1047"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-23",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi, this is a friendly reminder for invoice INV-1007 (Rs 184,000). Please let us know the expected date.",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-02-23",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] We have not received Rs 111,000 against invoice INV-1025. Please treat this as urgent.",
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-02-23",
+    "type": "buyer_reply",
+    "text": "Haan bhai dekhta hoon...",
+    "invoice_id": "INV-1077"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-02-23",
+    "type": "payment_received",
+    "text": "Rs 179,000 received from Mehta Hardware for invoice INV-1021.",
+    "amount": 179000,
+    "invoice_id": "INV-1021"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-02-23",
+    "type": "agent_action",
+    "text": "Rs 179,000 credited for INV-1021. Closing follow-up.",
+    "invoice_id": "INV-1021"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-02-24",
+    "type": "buyer_reply",
+    "text": "Sir, 10 ke baad hi funds aate hain hamare. Tab kar dunga.",
+    "invoice_id": "INV-1043"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-02-24",
+    "type": "promise",
+    "text": "2025-03-13 tak NEFT kar dunga.",
+    "invoice_id": "INV-1043"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-02-24",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2025-02-24.",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-02-24",
+    "type": "reminder_sent",
+    "text": "[call/firm] Joshi Foods, aapne 2025-02-22 tak payment ka promise kiya tha. Invoice INV-1052 Rs 74,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-02-24",
+    "type": "buyer_reply",
+    "text": "Account issue tha, 2 din mein fix hoga.",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-24",
+    "type": "buyer_reply",
+    "text": "Bhai, thoda time chahiye. 4-5 din mein kar dunga.",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-24",
+    "type": "promise",
+    "text": "2025-02-27 tak kar dunga payment.",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-02-25",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] This is a final reminder for invoice INV-1038. Amount Rs 76,000 is significantly overdue.",
+    "invoice_id": "INV-1038"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-26",
+    "type": "buyer_reply",
+    "text": "Account mein thoda issue tha, next week fix ho jayega.",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-02-26",
+    "type": "promise",
+    "text": "2025-03-01 tak NEFT kar dunga.",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-02-26",
+    "type": "buyer_reply",
+    "text": "Sure, processing today itself.",
+    "invoice_id": "INV-1038"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-02-26",
+    "type": "promise",
+    "text": "2025-02-27 tak kar dunga payment.",
+    "invoice_id": "INV-1038"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-02-27",
+    "type": "reminder_sent",
+    "text": "[call/firm] Iyer Exports, invoice INV-1025 (Rs 111,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-02-27",
+    "type": "payment_received",
+    "text": "Rs 76,000 received from Nair Chemicals for invoice INV-1038.",
+    "amount": 76000,
+    "invoice_id": "INV-1038"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-02-27",
+    "type": "agent_action",
+    "text": "Rs 76,000 credited for INV-1038. Closing follow-up.",
+    "invoice_id": "INV-1038"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-02-28",
+    "type": "reminder_sent",
+    "text": "[call/firm] Kulkarni Tools, invoice INV-1077 (Rs 133,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1077"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-02-28",
+    "type": "agent_action",
+    "text": "Marked for follow-up call on 2025-02-28.",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-02-28",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Hello! Invoice INV-1034 ke Rs 190,000 ke baare mein poochhna tha. Kab tak ho jayega?",
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-01",
+    "type": "buyer_reply",
+    "text": "Sir, sorry for delay. Payment kar raha hoon aaj.",
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-01",
+    "type": "payment_received",
+    "text": "Rs 198,000 received from Kulkarni Tools for invoice INV-1076 (severely late).",
+    "amount": 198000,
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-01",
+    "type": "agent_action",
+    "text": "Rs 198,000 credited for INV-1076. Closing follow-up.",
+    "invoice_id": "INV-1076"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1078 for Rs 25,000 sent to Kulkarni Tools.",
+    "amount": 25000,
+    "invoice_id": "INV-1078"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-01",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Hello! Invoice INV-1063 ke Rs 134,000 ke baare mein poochhna tha. Kab tak ho jayega?",
+    "invoice_id": "INV-1063"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-01",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1013 for Rs 106,000 sent to Patel Textiles.",
+    "amount": 106000,
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-03-01",
+    "type": "reminder_sent",
+    "text": "[call/firm] Verma Motors, invoice INV-1047 (Rs 43,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1047"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-03-02",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Hi! Just checking — invoice INV-1083 (Rs 45,000) ka kya status hai?",
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-02",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1053 for Rs 136,000 sent to Joshi Foods.",
+    "amount": 136000,
+    "invoice_id": "INV-1053"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-02",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1063"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-02",
+    "type": "promise",
+    "text": "Pakka 2025-03-02 tak. Trust me.",
+    "invoice_id": "INV-1063"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-02",
+    "type": "payment_received",
+    "text": "Rs 134,000 received from Malhotra Pharma for invoice INV-1063.",
+    "amount": 134000,
+    "invoice_id": "INV-1063"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-02",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 134,000 (INV-1063). Sending thank-you note.",
+    "invoice_id": "INV-1063"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-02",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Sir, ek chhota sa reminder — Rs 71,000 invoice INV-1012 ke liye. No rush, but please update.",
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-03-03",
+    "type": "reminder_sent",
+    "text": "[email/polite] Namaskar, invoice INV-1067 ka Rs 195,000 abhi tak receive nahi hua. Kindly update.",
+    "invoice_id": "INV-1067"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-03",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2025-03-03.",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-03",
+    "type": "reminder_sent",
+    "text": "[call/firm] Gupta Steels, aapne 2025-03-01 tak payment ka promise kiya tha. Invoice INV-1007 Rs 184,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-03",
+    "type": "buyer_reply",
+    "text": "Aaj NEFT karta hoon pakka.",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-03",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1008 for Rs 48,000 sent to Gupta Steels.",
+    "amount": 48000,
+    "invoice_id": "INV-1008"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-03-03",
+    "type": "reminder_sent",
+    "text": "[call/firm] Rao Electricals, aapne 2025-02-27 tak payment ka promise kiya tha. Invoice INV-1072 Rs 132,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2025-03-03",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Invoice INV-1093 (Rs 123,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1093"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-03-04",
+    "type": "buyer_reply",
+    "text": "Sir, 10 ke baad hi funds aate hain hamare. Tab kar dunga.",
+    "invoice_id": "INV-1067"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-03-04",
+    "type": "promise",
+    "text": "2026-03-14 tak kar dunga payment.",
+    "invoice_id": "INV-1067"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-04",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Iyer Exports, Rs 111,000 for INV-1025 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-04",
+    "type": "payment_received",
+    "text": "Rs 74,000 received from Joshi Foods for invoice INV-1052 (late by 10 days).",
+    "amount": 74000,
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-04",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 74,000 (INV-1052). Sending thank-you note.",
+    "invoice_id": "INV-1052"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1064 for Rs 118,000 sent to Malhotra Pharma.",
+    "amount": 118000,
+    "invoice_id": "INV-1064"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-03-04",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1089 for Rs 155,000 sent to Pillai Spices.",
+    "amount": 155000,
+    "invoice_id": "INV-1089"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-03-04",
+    "type": "buyer_reply",
+    "text": "Account issue tha, 2 din mein fix hoga.",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-03-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1058 for Rs 100,000 sent to Chopra Garments.",
+    "amount": 100000,
+    "invoice_id": "INV-1058"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-05",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1026 for Rs 83,000 sent to Iyer Exports.",
+    "amount": 83000,
+    "invoice_id": "INV-1026"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-03-06",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Banerjee Paper, invoice INV-1083 (Rs 45,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-06",
+    "type": "agent_action",
+    "text": "No response after 3 attempts. Flagged for escalation.",
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-03-06",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Singh Agro, invoice INV-1034 (Rs 190,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-03-06",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1048 for Rs 160,000 sent to Verma Motors.",
+    "amount": 160000,
+    "invoice_id": "INV-1048"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-03-07",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1030 for Rs 190,000 sent to Khan Fabrics.",
+    "amount": 190000,
+    "invoice_id": "INV-1030"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-07",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Kulkarni Tools, Rs 133,000 for INV-1077 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1077"
+  },
+  {
+    "buyer": "Bose Furniture",
+    "date": "2025-03-08",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2026-03-14.",
+    "invoice_id": "INV-1067"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-03-08",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1022 for Rs 60,000 sent to Mehta Hardware.",
+    "amount": 60000,
+    "invoice_id": "INV-1022"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-08",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Patel Textiles, invoice INV-1012 (Rs 71,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-03-08",
+    "type": "payment_received",
+    "text": "Rs 132,000 received from Rao Electricals for invoice INV-1072 (late by 9 days).",
+    "amount": 132000,
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Rao Electricals",
+    "date": "2025-03-08",
+    "type": "agent_action",
+    "text": "Rs 132,000 credited for INV-1072. Closing follow-up.",
+    "invoice_id": "INV-1072"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-03-08",
+    "type": "agent_action",
+    "text": "Called Singh Agro directly regarding invoice INV-1034.",
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-03-08",
+    "type": "buyer_reply",
+    "text": "Thanks for calling, warna bhool hi jaata. Tomorrow pakka.",
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-03-08",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-03-10.",
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-03-08",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Verma Motors, Rs 43,000 for INV-1047 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1047"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-03-09",
+    "type": "agent_action",
+    "text": "Called Banerjee Paper directly regarding invoice INV-1083.",
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-03-09",
+    "type": "buyer_reply",
+    "text": "Haan sir, call ke baad hi process karta hoon. Parson tak.",
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-03-09",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-03-11.",
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-09",
+    "type": "payment_received",
+    "text": "Rs 184,000 received from Gupta Steels for invoice INV-1007 (late by 8 days).",
+    "amount": 184000,
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-09",
+    "type": "agent_action",
+    "text": "Payment of Rs 184,000 received against invoice INV-1007. Account updated.",
+    "invoice_id": "INV-1007"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-09",
+    "type": "agent_action",
+    "text": "No response after 3 attempts. Flagged for escalation.",
+    "invoice_id": "INV-1077"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-03-10",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1039 for Rs 171,000 sent to Nair Chemicals.",
+    "amount": 171000,
+    "invoice_id": "INV-1039"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2025-03-10",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sethi Metals, invoice INV-1093 (Rs 123,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1093"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-03-10",
+    "type": "payment_received",
+    "text": "Rs 190,000 received from Singh Agro for invoice INV-1034 after phone follow-up.",
+    "amount": 190000,
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Singh Agro",
+    "date": "2025-03-10",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 190,000 (INV-1034). Sending thank-you note.",
+    "invoice_id": "INV-1034"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-03-11",
+    "type": "payment_received",
+    "text": "Rs 180,000 received from Desai Plastics for invoice INV-1043 (post-10th cycle).",
+    "amount": 180000,
+    "invoice_id": "INV-1043"
+  },
+  {
+    "buyer": "Desai Plastics",
+    "date": "2025-03-11",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 180,000 (INV-1043). Sending thank-you note.",
+    "invoice_id": "INV-1043"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-03-12",
+    "type": "payment_received",
+    "text": "Rs 45,000 received from Banerjee Paper for invoice INV-1083 after phone follow-up.",
+    "amount": 45000,
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Banerjee Paper",
+    "date": "2025-03-12",
+    "type": "agent_action",
+    "text": "Rs 45,000 credited for INV-1083. Closing follow-up.",
+    "invoice_id": "INV-1083"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-12",
+    "type": "agent_action",
+    "text": "Called Patel Textiles directly regarding invoice INV-1012.",
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-12",
+    "type": "buyer_reply",
+    "text": "Thanks for calling, warna bhool hi jaata. Tomorrow pakka.",
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-12",
+    "type": "promise",
+    "text": "2025-03-13 tak kar dunga payment.",
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-03-12",
+    "type": "agent_action",
+    "text": "Buyer has gone silent. Marking account as at-risk.",
+    "invoice_id": "INV-1047"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-13",
+    "type": "payment_received",
+    "text": "Rs 71,000 received from Patel Textiles for invoice INV-1012 after phone follow-up.",
+    "amount": 71000,
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-13",
+    "type": "agent_action",
+    "text": "Payment of Rs 71,000 received against invoice INV-1012. Account updated.",
+    "invoice_id": "INV-1012"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-03-14",
+    "type": "invoice_sent",
+    "text": "Invoice INV-1017 for Rs 74,000 sent to Reddy Electronics.",
+    "amount": 74000,
+    "invoice_id": "INV-1017"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2025-03-17",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Sethi Metals, Rs 123,000 for INV-1093 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1093"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-18",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Hi! Just checking — invoice INV-1053 (Rs 136,000) ka kya status hai?",
+    "invoice_id": "INV-1053"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-18",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/friendly] Hi! Just checking — invoice INV-1078 (Rs 25,000) ka kya status hai?",
+    "invoice_id": "INV-1078"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-19",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Gentle reminder: Invoice INV-1013 of Rs 106,000 is due. Kindly process at the earliest.",
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-20",
+    "type": "buyer_reply",
+    "text": "Sir, payment kal tak kar dunga.",
+    "invoice_id": "INV-1053"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-20",
+    "type": "promise",
+    "text": "2025-03-24 tak kar dunga payment.",
+    "invoice_id": "INV-1053"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-20",
+    "type": "buyer_reply",
+    "text": "Will check.",
+    "invoice_id": "INV-1078"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-03-21",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Bhai, invoice INV-1058 ka Rs 100,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1058"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-21",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Bhai, invoice INV-1008 ka Rs 48,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1008"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-21",
+    "type": "buyer_reply",
+    "text": "Bahut problem thi. Aaj NEFT kar diya.",
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-21",
+    "type": "payment_received",
+    "text": "Rs 111,000 received from Iyer Exports for invoice INV-1025 (severely late).",
+    "amount": 111000,
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-21",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 111,000 (INV-1025). Sending thank-you note.",
+    "invoice_id": "INV-1025"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-21",
+    "type": "reminder_sent",
+    "text": "[call/friendly] Hello! Invoice INV-1064 ke Rs 118,000 ke baare mein poochhna tha. Kab tak ho jayega?",
+    "invoice_id": "INV-1064"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-03-21",
+    "type": "reminder_sent",
+    "text": "[email/firm] Sir, aapka payment Rs 171,000 (Inv INV-1039) overdue ho chuka hai. Urgent action required.",
+    "invoice_id": "INV-1039"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-21",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Patel Textiles, invoice INV-1013 (Rs 106,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Sethi Metals",
+    "date": "2025-03-21",
+    "type": "agent_action",
+    "text": "Buyer has gone silent. Marking account as at-risk.",
+    "invoice_id": "INV-1093"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-22",
+    "type": "buyer_reply",
+    "text": "Done, NEFT kar diya abhi.",
+    "invoice_id": "INV-1064"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-22",
+    "type": "promise",
+    "text": "Pakka 2025-03-24 tak. Trust me.",
+    "invoice_id": "INV-1064"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-03-22",
+    "type": "buyer_reply",
+    "text": "Sure, processing today itself.",
+    "invoice_id": "INV-1039"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-03-22",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-03-22.",
+    "invoice_id": "INV-1039"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-23",
+    "type": "buyer_reply",
+    "text": "Sorry yaar, Friday tak pakka.",
+    "invoice_id": "INV-1008"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-23",
+    "type": "promise",
+    "text": "Promise — 2025-03-27 se pehle ho jayega.",
+    "invoice_id": "INV-1008"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-23",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Invoice INV-1026 (Rs 83,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1026"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-03-23",
+    "type": "payment_received",
+    "text": "Rs 171,000 received from Nair Chemicals for invoice INV-1039.",
+    "amount": 171000,
+    "invoice_id": "INV-1039"
+  },
+  {
+    "buyer": "Nair Chemicals",
+    "date": "2025-03-23",
+    "type": "agent_action",
+    "text": "Rs 171,000 credited for INV-1039. Closing follow-up.",
+    "invoice_id": "INV-1039"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-23",
+    "type": "agent_action",
+    "text": "Called Patel Textiles directly regarding invoice INV-1013.",
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-23",
+    "type": "buyer_reply",
+    "text": "Acha acha, call aaya toh yaad aaya. Kal kar deta hoon.",
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-23",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-03-24.",
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-03-24",
+    "type": "reminder_sent",
+    "text": "[email/firm] We have not received Rs 190,000 against invoice INV-1030. Please treat this as urgent.",
+    "invoice_id": "INV-1030"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-24",
+    "type": "payment_received",
+    "text": "Rs 118,000 received from Malhotra Pharma for invoice INV-1064.",
+    "amount": 118000,
+    "invoice_id": "INV-1064"
+  },
+  {
+    "buyer": "Malhotra Pharma",
+    "date": "2025-03-24",
+    "type": "agent_action",
+    "text": "Rs 118,000 credited for INV-1064. Closing follow-up.",
+    "invoice_id": "INV-1064"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-24",
+    "type": "payment_received",
+    "text": "Rs 106,000 received from Patel Textiles for invoice INV-1013 after phone follow-up.",
+    "amount": 106000,
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Patel Textiles",
+    "date": "2025-03-24",
+    "type": "agent_action",
+    "text": "Confirmed receipt of Rs 106,000 (INV-1013). Sending thank-you note.",
+    "invoice_id": "INV-1013"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-03-24",
+    "type": "reminder_sent",
+    "text": "[call/firm] Sir, aapka payment Rs 155,000 (Inv INV-1089) overdue ho chuka hai. Urgent action required.",
+    "invoice_id": "INV-1089"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-25",
+    "type": "agent_action",
+    "text": "Set reminder to call buyer on 2025-03-25.",
+    "invoice_id": "INV-1053"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-03-25",
+    "type": "buyer_reply",
+    "text": "Payment initiate kar diya hai, 1-2 din mein aa jayega.",
+    "invoice_id": "INV-1089"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-03-25",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-03-27.",
+    "invoice_id": "INV-1089"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-26",
+    "type": "reminder_sent",
+    "text": "[call/firm] Joshi Foods, aapne 2025-03-24 tak payment ka promise kiya tha. Invoice INV-1053 Rs 136,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1053"
+  },
+  {
+    "buyer": "Joshi Foods",
+    "date": "2025-03-26",
+    "type": "buyer_reply",
+    "text": "Sorry bhai, thoda aur delay ho gaya.",
+    "invoice_id": "INV-1053"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-26",
+    "type": "reminder_sent",
+    "text": "[call/firm] Kulkarni Tools, invoice INV-1078 (Rs 25,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1078"
+  },
+  {
+    "buyer": "Iyer Exports",
+    "date": "2025-03-27",
+    "type": "reminder_sent",
+    "text": "[call/firm] Iyer Exports, invoice INV-1026 (Rs 83,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1026"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-03-27",
+    "type": "buyer_reply",
+    "text": "Sir, payment kal tak kar dunga.",
+    "invoice_id": "INV-1030"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-03-27",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-03-30.",
+    "invoice_id": "INV-1030"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-03-27",
+    "type": "reminder_sent",
+    "text": "[email/friendly] Bhai, invoice INV-1022 ka Rs 60,000 pending hai. Jab convenient ho kar dena.",
+    "invoice_id": "INV-1022"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-03-27",
+    "type": "payment_received",
+    "text": "Rs 155,000 received from Pillai Spices for invoice INV-1089.",
+    "amount": 155000,
+    "invoice_id": "INV-1089"
+  },
+  {
+    "buyer": "Pillai Spices",
+    "date": "2025-03-27",
+    "type": "agent_action",
+    "text": "Payment of Rs 155,000 received against invoice INV-1089. Account updated.",
+    "invoice_id": "INV-1089"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-03-27",
+    "type": "reminder_sent",
+    "text": "[call/firm] This is a final reminder for invoice INV-1048. Amount Rs 160,000 is significantly overdue.",
+    "invoice_id": "INV-1048"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-03-28",
+    "type": "buyer_reply",
+    "text": "Haan bhai, kal kar dunga payment.",
+    "invoice_id": "INV-1022"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-03-28",
+    "type": "promise",
+    "text": "Next week pakka, by 2025-03-28.",
+    "invoice_id": "INV-1022"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-03-28",
+    "type": "payment_received",
+    "text": "Rs 60,000 received from Mehta Hardware for invoice INV-1022.",
+    "amount": 60000,
+    "invoice_id": "INV-1022"
+  },
+  {
+    "buyer": "Mehta Hardware",
+    "date": "2025-03-28",
+    "type": "agent_action",
+    "text": "Payment of Rs 60,000 received against invoice INV-1022. Account updated.",
+    "invoice_id": "INV-1022"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-03-28",
+    "type": "buyer_reply",
+    "text": "Will check.",
+    "invoice_id": "INV-1048"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-29",
+    "type": "agent_action",
+    "text": "Logged follow-up. Will check again on 2025-03-29.",
+    "invoice_id": "INV-1008"
+  },
+  {
+    "buyer": "Chopra Garments",
+    "date": "2025-03-30",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/polite] Hi Chopra Garments, invoice INV-1058 (Rs 100,000) overdue hai. Please update payment status.",
+    "invoice_id": "INV-1058"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-31",
+    "type": "reminder_sent",
+    "text": "[call/firm] Gupta Steels, aapne 2025-03-27 tak payment ka promise kiya tha. Invoice INV-1008 Rs 48,000 abhi bhi pending hai.",
+    "invoice_id": "INV-1008"
+  },
+  {
+    "buyer": "Gupta Steels",
+    "date": "2025-03-31",
+    "type": "buyer_reply",
+    "text": "Account issue tha, 2 din mein fix hoga.",
+    "invoice_id": "INV-1008"
+  },
+  {
+    "buyer": "Khan Fabrics",
+    "date": "2025-03-31",
+    "type": "agent_action",
+    "text": "Noted promise. Tracking payment by 2025-03-31.",
+    "invoice_id": "INV-1030"
+  },
+  {
+    "buyer": "Kulkarni Tools",
+    "date": "2025-03-31",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Final attempt: Kulkarni Tools, Rs 25,000 for INV-1078 pending. No response received. Escalation imminent.",
+    "invoice_id": "INV-1078"
+  },
+  {
+    "buyer": "Reddy Electronics",
+    "date": "2025-03-31",
+    "type": "reminder_sent",
+    "text": "[WhatsApp/firm] Invoice INV-1017 (Rs 74,000) is overdue. Please clear immediately to avoid escalation.",
+    "invoice_id": "INV-1017"
+  },
+  {
+    "buyer": "Verma Motors",
+    "date": "2025-03-31",
+    "type": "reminder_sent",
+    "text": "[call/firm] Verma Motors, invoice INV-1048 (Rs 160,000) is significantly overdue. Please respond urgently.",
+    "invoice_id": "INV-1048"
+  }
+]
